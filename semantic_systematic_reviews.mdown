@@ -4,6 +4,7 @@ Taís Moreira
 Jacson Barros  
 Jose Eduardo Santana  
 Joao Vissoci  
+Lucas Oliveira
 Uhana Seifert Guimaraes Suga
 Ricardo Pietrobon  
 
@@ -69,7 +70,6 @@ Table 1. Informal use case
 * For qualitative results a table and Venn diagram showing overlapping characteristics are displayed
 * For quantitative results, OR with 95% CI and a forest plot are displayed
 
-
 ### Ontology structure
 
 <!-- 
@@ -80,9 +80,16 @@ Tais, will need you to go over two things:
 
  -->
 
-We made use of the [UPON](https://docs.google.com/file/d/0B4Ke-17mTW1_eWZpeUNRa2pUVVE/edit) ontology engineering 
+Our ontology engineering process used concepts from the [UPON](https://docs.google.com/file/d/0B4Ke-17mTW1_eWZpeUNRa2pUVVE/edit) and [Agile](http://agilemanifesto.org/) methodology in that we used a use-case rather than realist approach and worked in iterative cycles focused on the aims of our stakeholders. Briefly, we used the following steps:
 
-![](https://lh5.googleusercontent.com/-pvA_edYEGms/Uf_OCrf9WQI/AAAAAAAA0SY/uMbWXc33dc4/w692-h426-no/Screen+Shot+2013-08-05+at+12.07.34+PM.png)
+1. Defined a simple use case, specifically focusing on the end-product our users were expected to get from the application
+1. Outlined main sections from each component articles in the Cook meta-analysis, including both qualitative and quantitative 
+2. Outlined a first version of the ontology and instantiated it with data
+3. Conducted a meta-analysis using the instances by directly importing the RDF into the R language
+<!-- r citation --> and [meta package]()
+1. Released a qualitative table outlining the main characteristics of each study
+1. Presented the result to an educator and went back to the beginning of the cycle to address any issues
+
 
 <!-- each subpopulation dyad (proportion of the number of successes over the total number of people) is specific for dyad each result dyad(specific outcome and specific intervention arm). For example, assume that a trial is comparing two arms (control vs. educational intervention A) for three outcomes (course completion, satisfied with course, and would recommend course to others). the following points have to be captured for this trial: rate of course completion for control (total number of students who completed course vs total number of students), rate of course completion for intervention, rate of satisfaction for control, ... -->
 
@@ -101,7 +108,7 @@ RDF (Resource Description Framework)
 
 ### Statistical analysis
 
-All analyses were conducted using the R language (@R2013). Specifically, we accessed the data through the previously created SPARQL endpoint using the rrdf package(@rrdf2013) package for rdf manipulation. The data were then converted into a dataframe, which is the equivalent of a flat table. Subsequently, we used the [rmeta](http://cran.r-project.org/web/packages/rmeta/rmeta.pdf) package for meta-analysis and forest plot and the [QCA](http://journal.r-project.org/archive/2013-1/thiem-dusa.pdf) and [Venn diagram](http://cran.r-project.org/web/packages/VennDiagram/VennDiagram.pdf) package for qualitative analysis.
+All analyses were conducted using the R language (@R2013). Specifically, we accessed the data through the previously created SPARQL endpoint using the rrdf package(@rrdf2013) package for rdf manipulation. The data were then converted into a dataframe, which is the equivalent of a flat table. Subsequently, we used the [meta](http://cran.r-project.org/web/packages/meta/index.html) package for meta-analysis and forest plot and the [QCA](http://journal.r-project.org/archive/2013-1/thiem-dusa.pdf) and [Venn diagram](http://cran.r-project.org/web/packages/VennDiagram/VennDiagram.pdf) package for qualitative analysis.
 
 <!-- [shiny](https://github.com/rstudio/shiny/) for web application deployment -->
 
@@ -154,6 +161,8 @@ figshare
 ### Primacy and summary
 
 ### Result 1
+
+comparison with [OCRe](https://code.google.com/p/ontology-of-clinical-research/)
 ### Result 2
 ### Result 3
 ### Result 4
