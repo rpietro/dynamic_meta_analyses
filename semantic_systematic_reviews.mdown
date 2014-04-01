@@ -1,0 +1,165 @@
+# Semantic dynamic systematic reviews of online learning applied to healthcare professionals: A reproducible research project
+
+Taís Moreira  
+Jacson Barros  
+Jose Eduardo Santana  
+Joao Vissoci  
+Uhana Seifert Guimaraes Suga
+Ricardo Pietrobon  
+
+
+<!-- 
+
+full analysis of all articles
+
+http://goo.gl/ahhWQb
+
+ -->
+
+<!-- 
+publicity
+  -->
+
+
+## Abstract
+<!-- will write at the end --> 
+
+## Introduction
+Online education is a major driving mechanism in the lifelong learning path of healthcare professionals. Despite a large number of systematic reviews and meta-analyses focusing on multiple aspects of online learning applied to healthcare professionals, the speed at which online learning technologies evolve largely defies our ability to create and maintain our reviews up to date. In contrast with this need, the field still largely relies on publications modes that can hardly address the practitioners' needs.
+
+Traditionally, education practice has been driven by more opinion than evidence. It was only recently that the number of randomized experiments and the overall quality in the reporting of other study designs has allowed for the execution of systematic reviews and meta-analyses. In education applied to healthcare in specific, recent efforts by researchers such as David Cook and <!-- add others --> have recently led to information that can now guide education policy in ways that were previously not possible. A recent example is <!-- example policy guided by systematic reviews in healthcare education -->
+
+<!-- overview of traditional systematic reviews and meta-analyses in online learning applied to healthcare education - work by david cook -->
+
+Despite of a significant increase in the number and quality of systematic reviews in education applied to healthcare, the field is not without problems. First, the time lag between the completion of studies and their inclusion in systematic reviews is still very large. If an additional years are added in order to these systematic reviews to be finally translated into practice guidelines and put into educational practice, we are likely looking at somewhere around 10 years between knowing that something works and then providing society with the benefit of that knowledge. Second, although meta-analysis are conducted with a potentially reproducible methodology, their underlying assumption can and should be put into question. For example, it has been demonstrated that the exact same set of articles in a meta-analysis can lead to fairly different conclusions depending on which articles are included based on a wide range of quality scales (juni1999hazards). However, in its current format, systematic reviews do not allow researchers and policy makers to attempt alternative assumptions, presenting instead a monolythic, falsely objective view of the literature. 
+
+As an alternative to the problems previously outlined, in the past few years semantic technologies now allow for databases to be dynamically created and distributed. <!-- ref book semantic web allemang --> Specifically, the [Linked Open Data movement](http://linkeddata.org/) allows for research articles to not only be published with a number of data points on each article that greatly supersedes the traditional PubMed abstracts <!-- pubmed -->, but also to bring in information about these articles that were previously not available. A typical example is the potential to map individual articles to the geographic locations where the studies were conducted, therefore assisting readers in evaluating whether their results might or not be relevant to them as a function of their similarity with the local population where these results might be eventually applied in educational practice.
+
+In light of the current issues with the literature, the objective of this article is to demonstrate a semantic, dynamic framework for systematic reviews and meta-analyses in online learning applied to healthcare education, where results can be dynamically displayed and stratified.
+
+## Methods
+
+
+<!-- data simulation for shiny app: which authors to include, stratification by variables, specific outcome, any two randomization arms
+
+write more detailed use case
+
+map distribution trial geolocation -->
+
+
+
+### Demonstration systematic review and meta-analysis articles
+
+<!-- Tais, please add here a description of the systematic review we will use, how many rcts it has, and links to the rcts. also add a meta-analysis of your choice focused on online learning applied to healthcare professionals - would choose something where there are around 15 RCTs included, just so that we have a bit of room to stratify the results later on -->
+
+
+The extracted data are provided as a CSV (comma-separated values) under FigShare <!-- add link once available --> as well as a [Google spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AuL3GiehWhDMdDVTRmtmV185ajMxbEZxd2plTllCNEE#gid=0). Finally, as will be detailed below, the data are made available in a directly queriable format through our SPARQL endpoint <!-- link and define sparql -->, from which a direct analysis can also be performed.
+
+ that can be downloaded as a .CSV (comma-separated values) file.
+
+
+### Use case
+Informal use case](http://www.agilemodeling.com/artifacts/systemUseCase.htm)
+
+Table 1. Informal use case
+
+* User go to the Web site and either browses or searches across systematic reviews and  RCTs
+* For each systematic review, the user can stratify results based on a set of fields from an existing ontology that are present within that systematic review
+* Results are presented in both a qualitative as well as, when available, a quantitative perspective
+* For qualitative results a table and Venn diagram showing overlapping characteristics are displayed
+* For quantitative results, OR with 95% CI and a forest plot are displayed
+
+
+### Ontology structure
+
+<!-- 
+Tais, will need you to go over two things:
+
+1. which fields available in most RCTs would be valuable for qualitatively characterizing the overall systematic review? for example, population characteristics would be interesting, but can you break that down into something more specific? how much detail you might want to provide is something that you will have to decide based on how important it is as well as how often the field might be available across RCTs
+2. please check with Joao which fields eh would like you to extract from each RCT *in the meta-analysis* so that he can run the meta-analysis later. this should be relatively simple. then think about which variables in the RCTs for the meta-analysis you might want to stratify the results by. i can give you specific examples once you have chosen a meta-analysis
+
+ -->
+
+We made use of the [UPON](https://docs.google.com/file/d/0B4Ke-17mTW1_eWZpeUNRa2pUVVE/edit) ontology engineering 
+
+![](https://lh5.googleusercontent.com/-pvA_edYEGms/Uf_OCrf9WQI/AAAAAAAA0SY/uMbWXc33dc4/w692-h426-no/Screen+Shot+2013-08-05+at+12.07.34+PM.png)
+
+<!-- each subpopulation dyad (proportion of the number of successes over the total number of people) is specific for dyad each result dyad(specific outcome and specific intervention arm). For example, assume that a trial is comparing two arms (control vs. educational intervention A) for three outcomes (course completion, satisfied with course, and would recommend course to others). the following points have to be captured for this trial: rate of course completion for control (total number of students who completed course vs total number of students), rate of course completion for intervention, rate of satisfaction for control, ... -->
+
+
+
+### RDF conversion
+RDF (Resource Description Framework)
+<!-- Jacson or Jose Eduardo, how do we convert from csv to RDF. can we also make it available in json? csv will be available from the sheet, which might be a simple interface where other people might want to collaborate data -->
+
+### Linking data to the systematic review or data analysis
+
+[CiTO, the Citation Typing Ontology](http://speroni.web.cs.unibo.it/cgi-bin/lode/req.py?req=http:/purl.org/spar/cito)
+<!-- Jacson, cito is included in knitcitations and only requires the DOI - do you know whether DOI is included in the pubmed lod? a connection with cito could lead in another paper toward a facilitated search for additional rcts if we connect it to the pubmed API to search for related articles. could also do some hacking of google scholar in order to get citing and cited articles. see http://goo.gl/wvQEdG for an example. all of this is not for now, this will be part of the discussion section as future development -->
+
+<!-- connection to linkedct through pmid -->
+
+### Statistical analysis
+
+All analyses were conducted using the R language (@R2013). Specifically, we accessed the data through the previously created SPARQL endpoint using the rrdf package(@rrdf2013) package for rdf manipulation. The data were then converted into a dataframe, which is the equivalent of a flat table. Subsequently, we used the [rmeta](http://cran.r-project.org/web/packages/rmeta/rmeta.pdf) package for meta-analysis and forest plot and the [QCA](http://journal.r-project.org/archive/2013-1/thiem-dusa.pdf) and [Venn diagram](http://cran.r-project.org/web/packages/VennDiagram/VennDiagram.pdf) package for qualitative analysis.
+
+<!-- [shiny](https://github.com/rstudio/shiny/) for web application deployment -->
+
+### Reproducible research methodology
+
+In order to make this study reproducible, we followed a series of published recommendations. <!-- vissoci, also include article talking about higher standards published in plos on - see timss article and also fingerprint -->. These included 
+<!-- figshare all data, github all data and scripts, sparql endpoint, 
+
+store R, it's packages, and d2rq  -->
+
+## Results
+
+### Ontology structure
+
+### Application functionality
+
+#### Search
+
+
+#### Qualitative results
+
+Figure 1: Venn diagram  
+![](https://lh3.googleusercontent.com/-zwj7ZtypmFM/Uf_QQBk20TI/AAAAAAAA0TA/sceZE11vVhA/w428-h329-no/Screen+Shot+2013-08-05+at+12.16.51+PM.png)
+
+
+#### Quantitative results
+
+Figure 2: Forest plot  
+![](https://lh5.googleusercontent.com/-d5S4ZSqucj0/Uf_WQo_kHVI/AAAAAAAA0Ts/zmIqqgnPP8A/w923-h657-no/Screen+Shot+2013-08-05+at+12.43.22+PM.png)
+
+Figure 3: Funnel plot
+![](https://lh5.googleusercontent.com/-7O-SeJ9wx_Q/UgA5AzutMRI/AAAAAAAA0WY/-1BjN8IGbjg/w850-h604-no/Screen+Shot+2013-08-05+at+7.43.44+PM.png)
+
+### Data availability
+
+
+
+### Reproducible research methodology
+github
+Joao's paper
+figshare
+
+
+
+## Discussion
+
+<!-- advantages more info and more specific than what cochrane/revman recommends allows for peer-review after study is published - talk about http://goo.gl/YM699D -->
+
+
+### Primacy and summary
+
+### Result 1
+### Result 2
+### Result 3
+### Result 4
+### Limitations
+
+### Future
+compliance consort included into ontology
+cito reason for citation for citing and cited articles
+

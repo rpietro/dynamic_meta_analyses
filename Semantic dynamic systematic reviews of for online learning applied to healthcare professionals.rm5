@@ -1,0 +1,1909 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<COCHRANE_REVIEW DESCRIPTION="" DOI="" GROUP_ID="" ID="480813091710231116" MERGED_FROM="" MODIFIED="2013-09-29 18:54:43 -0300" MODIFIED_BY="[Empty name]" REVIEW_NO="" REVMAN_SUB_VERSION="5.2.6 " REVMAN_VERSION="5" SPLIT_FROM="" STAGE="P" STATUS="A" TYPE="INTERVENTION" VERSION_NO="0.0">
+<COVER_SHEET MODIFIED="2013-09-17 10:43:13 -0300" MODIFIED_BY="[Empty name]">
+<TITLE MODIFIED="2013-09-17 10:33:45 -0300" MODIFIED_BY="[Empty name]">Semantic dynamic systematic reviews of online learning applied to healthcare professionals: A reproducible research project</TITLE>
+<CONTACT>
+<PERSON ID="????" MODIFIED="2013-09-17 10:41:47 -0300" MODIFIED_BY="[Empty name]" ROLE="UNKNOWN">
+<PREFIX/>
+<FIRST_NAME>Taís</FIRST_NAME>
+<MIDDLE_INITIALS>C</MIDDLE_INITIALS>
+<LAST_NAME>Moreira</LAST_NAME>
+<SUFFIX/>
+<POSITION/>
+<EMAIL_1>taiscmoreira@gmail.com</EMAIL_1>
+<EMAIL_2/>
+<URL/>
+<MOBILE_PHONE/>
+<ADDRESS>
+<DEPARTMENT/>
+<ORGANISATION>UFCSPA</ORGANISATION>
+<ADDRESS_1/>
+<ADDRESS_2/>
+<CITY/>
+<ZIP/>
+<REGION/>
+<COUNTRY CODE="BR">Brazil</COUNTRY>
+<PHONE_1/>
+<PHONE_2/>
+<FAX_1/>
+<FAX_2/>
+</ADDRESS>
+<FOOTNOTE/>
+</PERSON>
+</CONTACT>
+<CREATORS MODIFIED="2013-09-17 10:40:30 -0300" MODIFIED_BY="[Empty name]">
+<PERSON ID="????" MODIFIED="2013-09-17 10:25:47 -0300" MODIFIED_BY="[Empty name]" ROLE="AUTHOR">
+<PREFIX/>
+<FIRST_NAME>Taís</FIRST_NAME>
+<MIDDLE_INITIALS>C</MIDDLE_INITIALS>
+<LAST_NAME>Moreira</LAST_NAME>
+<SUFFIX/>
+<POSITION/>
+<EMAIL_1>taiscmoreira@gmail.com</EMAIL_1>
+<EMAIL_2/>
+<URL/>
+<MOBILE_PHONE>555191060345</MOBILE_PHONE>
+<ADDRESS>
+<DEPARTMENT/>
+<ORGANISATION>UFCSPA</ORGANISATION>
+<ADDRESS_1/>
+<ADDRESS_2/>
+<CITY/>
+<ZIP/>
+<REGION/>
+<COUNTRY CODE="BR">Brazil</COUNTRY>
+<PHONE_1/>
+<PHONE_2/>
+<FAX_1/>
+<FAX_2/>
+</ADDRESS>
+<FOOTNOTE/>
+</PERSON>
+<PERSON ID="????" MODIFIED="2013-09-17 10:30:55 -0300" MODIFIED_BY="[Empty name]" ROLE="AUTHOR">
+<PREFIX/>
+<FIRST_NAME>Jacson</FIRST_NAME>
+<MIDDLE_INITIALS>Barros</MIDDLE_INITIALS>
+<LAST_NAME/>
+<SUFFIX/>
+<POSITION/>
+<EMAIL_1>jacson.barros@gmail.com</EMAIL_1>
+<EMAIL_2/>
+<URL/>
+<MOBILE_PHONE/>
+<ADDRESS>
+<DEPARTMENT/>
+<ORGANISATION/>
+<ADDRESS_1/>
+<ADDRESS_2/>
+<CITY/>
+<ZIP/>
+<REGION/>
+<COUNTRY CODE="BR">Brazil</COUNTRY>
+<PHONE_1/>
+<PHONE_2/>
+<FAX_1/>
+<FAX_2/>
+</ADDRESS>
+<FOOTNOTE/>
+</PERSON>
+<PERSON ID="????" MODIFIED="2013-09-17 10:32:24 -0300" MODIFIED_BY="[Empty name]" ROLE="AUTHOR">
+<PREFIX/>
+<FIRST_NAME>José Eduardo</FIRST_NAME>
+<MIDDLE_INITIALS/>
+<LAST_NAME>Santana</LAST_NAME>
+<SUFFIX/>
+<POSITION/>
+<EMAIL_1>eduardosant@gmail.com</EMAIL_1>
+<EMAIL_2/>
+<URL/>
+<MOBILE_PHONE/>
+<ADDRESS>
+<DEPARTMENT/>
+<ORGANISATION/>
+<ADDRESS_1/>
+<ADDRESS_2/>
+<CITY/>
+<ZIP/>
+<REGION/>
+<COUNTRY CODE="BR">Brazil</COUNTRY>
+<PHONE_1/>
+<PHONE_2/>
+<FAX_1/>
+<FAX_2/>
+</ADDRESS>
+<FOOTNOTE/>
+</PERSON>
+<PERSON ID="????" MODIFIED="2013-09-17 10:36:31 -0300" MODIFIED_BY="[Empty name]" ROLE="AUTHOR">
+<PREFIX/>
+<FIRST_NAME>João Ricardo</FIRST_NAME>
+<MIDDLE_INITIALS>N</MIDDLE_INITIALS>
+<LAST_NAME>Vissoci</LAST_NAME>
+<SUFFIX/>
+<POSITION/>
+<EMAIL_1>joaovissoci@gmail.com</EMAIL_1>
+<EMAIL_2/>
+<URL/>
+<MOBILE_PHONE/>
+<ADDRESS>
+<DEPARTMENT/>
+<ORGANISATION>Faculdade de Ingá</ORGANISATION>
+<ADDRESS_1/>
+<ADDRESS_2/>
+<CITY/>
+<ZIP/>
+<REGION/>
+<COUNTRY CODE="BR">Brazil</COUNTRY>
+<PHONE_1/>
+<PHONE_2/>
+<FAX_1/>
+<FAX_2/>
+</ADDRESS>
+<FOOTNOTE/>
+</PERSON>
+<PERSON ID="????" MODIFIED="2013-09-17 10:37:53 -0300" MODIFIED_BY="[Empty name]" ROLE="AUTHOR">
+<PREFIX/>
+<FIRST_NAME>Lucas</FIRST_NAME>
+<MIDDLE_INITIALS>L H</MIDDLE_INITIALS>
+<LAST_NAME>Oliveira</LAST_NAME>
+<SUFFIX/>
+<POSITION/>
+<EMAIL_1>lentinilucas27@gmail.com</EMAIL_1>
+<EMAIL_2/>
+<URL/>
+<MOBILE_PHONE/>
+<ADDRESS>
+<DEPARTMENT/>
+<ORGANISATION>UFCSPA</ORGANISATION>
+<ADDRESS_1/>
+<ADDRESS_2/>
+<CITY/>
+<ZIP/>
+<REGION/>
+<COUNTRY CODE="BR">Brazil</COUNTRY>
+<PHONE_1/>
+<PHONE_2/>
+<FAX_1/>
+<FAX_2/>
+</ADDRESS>
+<FOOTNOTE/>
+</PERSON>
+<PERSON ID="????" MODIFIED="2013-09-17 10:39:22 -0300" MODIFIED_BY="[Empty name]" ROLE="AUTHOR">
+<PREFIX/>
+<FIRST_NAME>Uhana</FIRST_NAME>
+<MIDDLE_INITIALS>SG</MIDDLE_INITIALS>
+<LAST_NAME>Suga</LAST_NAME>
+<SUFFIX/>
+<POSITION/>
+<EMAIL_1>uhanaseifert@gmail.com</EMAIL_1>
+<EMAIL_2/>
+<URL/>
+<MOBILE_PHONE/>
+<ADDRESS>
+<DEPARTMENT/>
+<ORGANISATION/>
+<ADDRESS_1/>
+<ADDRESS_2/>
+<CITY/>
+<ZIP/>
+<REGION/>
+<COUNTRY CODE="BR">Brazil</COUNTRY>
+<PHONE_1/>
+<PHONE_2/>
+<FAX_1/>
+<FAX_2/>
+</ADDRESS>
+<FOOTNOTE/>
+</PERSON>
+<PERSON ID="????" MODIFIED="2013-09-17 10:40:30 -0300" MODIFIED_BY="[Empty name]" ROLE="AUTHOR">
+<PREFIX/>
+<FIRST_NAME>Ricardo</FIRST_NAME>
+<MIDDLE_INITIALS/>
+<LAST_NAME>Pietrobon</LAST_NAME>
+<SUFFIX/>
+<POSITION/>
+<EMAIL_1>pietr007@gmail.com</EMAIL_1>
+<EMAIL_2/>
+<URL/>
+<MOBILE_PHONE/>
+<ADDRESS>
+<DEPARTMENT/>
+<ORGANISATION>Duke University</ORGANISATION>
+<ADDRESS_1/>
+<ADDRESS_2/>
+<CITY/>
+<ZIP/>
+<REGION/>
+<COUNTRY CODE="US">USA</COUNTRY>
+<PHONE_1/>
+<PHONE_2/>
+<FAX_1/>
+<FAX_2/>
+</ADDRESS>
+<FOOTNOTE/>
+</PERSON>
+</CREATORS>
+<DATES MODIFIED="2013-09-17 10:43:13 -0300" MODIFIED_BY="[Empty name]">
+<UP_TO_DATE>
+<DATE DAY="17" MONTH="9" YEAR="2013"/>
+</UP_TO_DATE>
+<LAST_SEARCH>
+<DATE DAY="17" MONTH="9" YEAR="2013"/>
+</LAST_SEARCH>
+<NEXT_STAGE>
+<DATE DAY="26" MONTH="9" YEAR="2013"/>
+</NEXT_STAGE>
+<PROTOCOL_PUBLISHED ISSUE="" YEAR=""/>
+<REVIEW_PUBLISHED ISSUE="" YEAR=""/>
+<LAST_CITATION_ISSUE ISSUE="" YEAR=""/>
+</DATES>
+<WHATS_NEW/>
+<HISTORY/>
+<SOURCES_OF_SUPPORT>
+<INTERNAL_SOURCES/>
+<EXTERNAL_SOURCES/>
+</SOURCES_OF_SUPPORT>
+<MESH_TERMS VERIFIED="NO"/>
+<KEYWORDS/>
+</COVER_SHEET>
+<MAIN_TEXT MODIFIED="2013-09-17 10:54:12 -0300" MODIFIED_BY="[Empty name]">
+<SUMMARY>
+<TITLE>[Plain language title]</TITLE>
+<SUMMARY_BODY>
+<P>[Summary text]</P>
+</SUMMARY_BODY>
+</SUMMARY>
+<ABSTRACT>
+<ABS_BACKGROUND/>
+<ABS_OBJECTIVES/>
+<ABS_SEARCH_STRATEGY/>
+<ABS_SELECTION_CRITERIA/>
+<ABS_DATA_COLLECTION/>
+<ABS_RESULTS/>
+<ABS_CONCLUSIONS/>
+</ABSTRACT>
+<BODY MODIFIED="2013-09-17 10:54:12 -0300" MODIFIED_BY="[Empty name]">
+<BACKGROUND MODIFIED="2013-09-17 10:54:12 -0300" MODIFIED_BY="[Empty name]">
+<P>Online education is a major driving mechanism in the continuing education of healthcare professionals. Despite a large number of systematic reviews and meta-analyses focusing on multiple aspects of online learning applied to healthcare professionals, the speed at which online learning technologies evolve largely defies our ability to create and maintain our reviews up to date. Despite this need, the field still largely relies on traditional publications.</P>
+<CONDITION/>
+<INTERVENTION/>
+<THEORY/>
+<IMPORTANCE/>
+</BACKGROUND>
+<OBJECTIVES MODIFIED="2013-09-17 10:51:25 -0300" MODIFIED_BY="[Empty name]">
+<P>The objective of this article is therefore to demonstrate a semantic, dynamic, framework for systematic reviews and meta-analyses in online learning applied to healthcare education, where results can be dynamically displayed and stratified.</P>
+</OBJECTIVES>
+<METHODS>
+<SELECTION_CRITERIA>
+<CRIT_STUDIES/>
+<CRIT_PARTICIPANTS/>
+<CRIT_INTERVENTIONS/>
+<CRIT_OUTCOMES>
+<CRIT_OUTCOMES_PRIMARY/>
+<CRIT_OUTCOMES_SECONDARY/>
+</CRIT_OUTCOMES>
+</SELECTION_CRITERIA>
+<SEARCH_METHODS>
+<ELECTRONIC_SEARCHES/>
+<OTHER_SEARCHES/>
+</SEARCH_METHODS>
+<DATA_COLLECTION>
+<STUDY_SELECTION/>
+<DATA_EXTRACTION/>
+<QUALITY_ASSESSMENT/>
+<EFFECT_MEASURES/>
+<UNIT_OF_ANALYSIS/>
+<MISSING_DATA/>
+<HETEROGENEITY_ASSESSMENT/>
+<BIAS_ASSESSMENT/>
+<DATA_SYNTHESIS/>
+<SUBGROUP_ANALYSIS/>
+<SENSITIVITY_ANALYSIS/>
+</DATA_COLLECTION>
+</METHODS>
+<RESULTS>
+<STUDY_DESCRIPTION>
+<SEARCH_RESULTS/>
+<INCLUDED_STUDIES_DESCR/>
+<EXCLUDED_STUDIES_DESCR/>
+</STUDY_DESCRIPTION>
+<STUDY_QUALITY>
+<ALLOCATION/>
+<BLINDING/>
+<EXCLUSIONS/>
+<SELECTIVE_REPORTING/>
+<OTHER_BIAS_SOURCES/>
+</STUDY_QUALITY>
+<INTERVENTION_EFFECTS/>
+</RESULTS>
+<DISCUSSION>
+<SUMMARY_OF_RESULTS/>
+<APPLICABILITY_OF_FINDINGS/>
+<QUALITY_OF_EVIDENCE/>
+<POTENTIAL_BIASES/>
+<AGREEMENT/>
+</DISCUSSION>
+<CONCLUSIONS>
+<IMPLICATIONS_PRACTICE/>
+<IMPLICATIONS_RESEARCH/>
+</CONCLUSIONS>
+</BODY>
+<ACKNOWLEDGEMENTS/>
+<CONFLICT_OF_INTEREST/>
+<CONTRIBUTIONS/>
+<PRO_REV_DIFF/>
+<PUBLIC_NOTES/>
+</MAIN_TEXT>
+<STUDIES_AND_REFERENCES MODIFIED="2013-09-20 11:39:45 -0300" MODIFIED_BY="[Empty name]">
+<STUDIES MODIFIED="2013-09-20 11:30:08 -0300" MODIFIED_BY="[Empty name]">
+<INCLUDED_STUDIES MODIFIED="2013-09-20 11:30:08 -0300" MODIFIED_BY="[Empty name]">
+<STUDY DATA_SOURCE="PUB" ID="STD-Bell-2000" MODIFIED="2013-09-19 11:01:51 -0300" MODIFIED_BY="[Empty name]" NAME="Bell 2000" YEAR="2000">
+<REFERENCE MODIFIED="2013-09-19 11:01:51 -0300" MODIFIED_BY="[Empty name]" PRIMARY="NO" TYPE="JOURNAL_ARTICLE">
+<AU>Bell DS, Fonarow GC, Hays RD, Mangione CM</AU>
+<TI>Self-study from web-based and printed guideline materials. A randomized, controlled trial among residentphysicians</TI>
+<TO>Self-study from web-based and printed guideline materials. A randomized, controlled trial among residentphysicians</TO>
+<SO>Ann Intern Med.</SO>
+<YR>2000</YR>
+<VL>132</VL>
+<NO>12</NO>
+<PG>938-46</PG>
+<IDENTIFIERS MODIFIED="2013-09-19 11:01:51 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-19 11:01:51 -0300" MODIFIED_BY="[Empty name]" TYPE="PUBMED" VALUE="10858176"/>
+</IDENTIFIERS>
+</REFERENCE>
+<IDENTIFIERS/>
+</STUDY>
+<STUDY DATA_SOURCE="PUB" ID="STD-Blackmore-2006" MODIFIED="2013-09-20 10:53:20 -0300" MODIFIED_BY="[Empty name]" NAME="Blackmore 2006" YEAR="2006">
+<REFERENCE MODIFIED="2013-09-20 10:53:20 -0300" MODIFIED_BY="[Empty name]" PRIMARY="NO" TYPE="JOURNAL_ARTICLE">
+<AU>Blackmore, C., Tantam, D., Van Deurzen, E</AU>
+<TI>The role of the eTutor&#8212;evaluating tutor input in a virtual learning community for psychotherapists and psychologists across Europe.</TI>
+<TO>The role of the eTutor&#8212;evaluating tutor input in a virtual learning community for psychotherapists and psychologists across Europe.</TO>
+<SO>International Journal of Psychotherapy</SO>
+<YR>2006</YR>
+<VL>102</VL>
+<NO>2</NO>
+<PG>35-46</PG>
+<IDENTIFIERS/>
+</REFERENCE>
+<IDENTIFIERS/>
+</STUDY>
+<STUDY DATA_SOURCE="PUB" ID="STD-Bloomfield-2010" MODIFIED="2013-09-18 23:26:15 -0300" MODIFIED_BY="[Empty name]" NAME="Bloomfield 2010" YEAR="2010">
+<REFERENCE MODIFIED="2013-09-18 23:26:15 -0300" MODIFIED_BY="[Empty name]" PRIMARY="NO" TYPE="JOURNAL_ARTICLE">
+<AU>Bloomfield J, Roberts J, While A.</AU>
+<TI>The effect of computer-assisted learning versus conventional teaching methods on the acquisition and retention of handwashing theory and skills in pre-qualification nursing students: a randomised controlled trial.</TI>
+<TO>The effect of computer-assisted learning versus conventional teaching methods on the acquisition and retention of handwashing theory and skills in pre-qualification nursing students: a randomised controlled trial.</TO>
+<SO>Int J Nurs Stud.</SO>
+<YR>2010</YR>
+<VL>47</VL>
+<NO>3</NO>
+<PG>287-94</PG>
+<IDENTIFIERS MODIFIED="2013-09-18 23:26:15 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-18 23:26:03 -0300" MODIFIED_BY="[Empty name]" TYPE="DOI" VALUE="doi: 10.1016/j.ijnurstu.2009.08.003."/>
+</IDENTIFIERS>
+</REFERENCE>
+<IDENTIFIERS MODIFIED="2013-09-18 23:23:29 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-18 23:23:29 -0300" MODIFIED_BY="[Empty name]" TYPE="OTHER" VALUE="doi: 10.1016/j.ijnurstu.2009.08.003"/>
+</IDENTIFIERS>
+</STUDY>
+<STUDY DATA_SOURCE="PUB" ID="STD-Chiu-2009" MODIFIED="2013-09-18 23:31:59 -0300" MODIFIED_BY="[Empty name]" NAME="Chiu 2009" YEAR="2009">
+<REFERENCE MODIFIED="2013-09-18 23:31:59 -0300" MODIFIED_BY="[Empty name]" PRIMARY="NO" TYPE="JOURNAL_ARTICLE">
+<AU>Chiu SC, Cheng KY, Sun TK, Chang KC, Tan TY et al</AU>
+<TI>The effectiveness of interactive computer assisted instruction compared to videotaped instruction for teachingnurses to assess neurological function of stroke patients: a randomized controlled trial.</TI>
+<TO>The effectiveness of interactive computer assisted instruction compared to videotaped instruction for teachingnurses to assess neurological function of stroke patients: a randomized controlled trial.</TO>
+<SO>Int J Nurs Stud</SO>
+<YR>2009</YR>
+<VL>46</VL>
+<NO>12</NO>
+<PG>1548-56</PG>
+<IDENTIFIERS MODIFIED="2013-09-18 23:31:59 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-18 23:31:58 -0300" MODIFIED_BY="[Empty name]" TYPE="DOI" VALUE=" 10.1016/j.ijnurstu.2009.05.008."/>
+</IDENTIFIERS>
+</REFERENCE>
+<IDENTIFIERS MODIFIED="2013-09-18 23:29:01 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-18 23:28:58 -0300" MODIFIED_BY="[Empty name]" TYPE="DOI" VALUE="doi: 10.1016/j.ijnurstu.2009.05.008."/>
+</IDENTIFIERS>
+</STUDY>
+<STUDY DATA_SOURCE="PUB" ID="STD-Cook-2005" MODIFIED="2013-09-19 11:31:02 -0300" MODIFIED_BY="[Empty name]" NAME="Cook 2005" YEAR="2005">
+<REFERENCE MODIFIED="2013-09-19 11:31:02 -0300" MODIFIED_BY="[Empty name]" PRIMARY="NO" TYPE="JOURNAL_ARTICLE">
+<AU>Cook DA, Dupras DM, Thompson WG, Pankratz VS</AU>
+<TI>Web-based learning in residents' continuity clinics: a randomized, controlled trial.</TI>
+<TO>Web-based learning in residents' continuity clinics: a randomized, controlled trial.</TO>
+<SO>Acad Med.</SO>
+<YR>2005</YR>
+<VL>80</VL>
+<NO>1</NO>
+<PG>90-7</PG>
+<IDENTIFIERS MODIFIED="2013-09-19 11:31:02 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-19 11:31:02 -0300" MODIFIED_BY="[Empty name]" TYPE="PUBMED" VALUE="15618102 "/>
+</IDENTIFIERS>
+</REFERENCE>
+<IDENTIFIERS/>
+</STUDY>
+<STUDY DATA_SOURCE="PUB" ID="STD-Cook-2006" MODIFIED="2013-09-20 10:58:30 -0300" MODIFIED_BY="[Empty name]" NAME="Cook 2006" YEAR="2006">
+<REFERENCE MODIFIED="2013-09-20 10:58:30 -0300" MODIFIED_BY="[Empty name]" PRIMARY="NO" TYPE="JOURNAL_ARTICLE">
+<AU>Cook DA, Thompson WG, Thomas KG, Thomas MR, Pankratz VS.</AU>
+<TI>Impact of self-assessment questions and learning styles in Web-based learning: a randomized, controlled,crossover trial.</TI>
+<TO>Impact of self-assessment questions and learning styles in Web-based learning: a randomized, controlled,crossover trial.</TO>
+<SO>Acad Med.</SO>
+<YR>2006</YR>
+<VL>81</VL>
+<NO>3</NO>
+<PG>231-8</PG>
+<IDENTIFIERS MODIFIED="2013-09-20 10:58:30 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-20 10:58:30 -0300" MODIFIED_BY="[Empty name]" TYPE="PUBMED" VALUE="16501263"/>
+</IDENTIFIERS>
+</REFERENCE>
+<IDENTIFIERS/>
+</STUDY>
+<STUDY DATA_SOURCE="PUB" ID="STD-Cook-2008-a" MODIFIED="2013-09-20 11:10:43 -0300" MODIFIED_BY="[Empty name]" NAME="Cook 2008 a" YEAR="2008a">
+<REFERENCE MODIFIED="2013-09-20 11:10:43 -0300" MODIFIED_BY="[Empty name]" PRIMARY="NO" TYPE="JOURNAL_ARTICLE">
+<AU>Cook DA, Beckman TJ, Thomas KG, Thompson WG.</AU>
+<TI>Adapting web-based instruction to residents' knowledge improves learning efficiency: a randomized controlled trial.</TI>
+<TO>Adapting web-based instruction to residents' knowledge improves learning efficiency: a randomized controlled trial.</TO>
+<SO>J Gen Intern Med.</SO>
+<YR>2008</YR>
+<VL>23</VL>
+<NO>7</NO>
+<PG>985-90</PG>
+<IDENTIFIERS MODIFIED="2013-09-20 11:10:43 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-20 11:10:43 -0300" MODIFIED_BY="[Empty name]" TYPE="DOI" VALUE="10.1007/s11606-008-0541-0."/>
+</IDENTIFIERS>
+</REFERENCE>
+<IDENTIFIERS MODIFIED="2013-09-20 11:08:16 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-20 11:08:16 -0300" MODIFIED_BY="[Empty name]" TYPE="DOI" VALUE="10.1007/s11606-008-0541-0."/>
+</IDENTIFIERS>
+</STUDY>
+<STUDY DATA_SOURCE="PUB" ID="STD-Cook-2008-b" MODIFIED="2013-09-20 11:14:32 -0300" MODIFIED_BY="[Empty name]" NAME="Cook 2008 b" YEAR="2008b">
+<REFERENCE MODIFIED="2013-09-20 11:14:32 -0300" MODIFIED_BY="[Empty name]" PRIMARY="NO" TYPE="JOURNAL_ARTICLE">
+<AU>Cook DA, Beckman TJ, Thomas KG, Thompson WG.</AU>
+<TI>Introducing resident doctors to complexity in ambulatory medicine.</TI>
+<TO>Introducing resident doctors to complexity in ambulatory medicine.</TO>
+<SO>Med Educ.</SO>
+<YR>2008</YR>
+<VL>42</VL>
+<NO>8</NO>
+<PG>838-48</PG>
+<IDENTIFIERS MODIFIED="2013-09-20 11:14:32 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-20 11:14:32 -0300" MODIFIED_BY="[Empty name]" TYPE="DOI" VALUE="10.1111/j.1365-2923.2008.03108.x."/>
+</IDENTIFIERS>
+</REFERENCE>
+<IDENTIFIERS MODIFIED="2013-09-20 11:12:46 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-20 11:12:46 -0300" MODIFIED_BY="[Empty name]" TYPE="DOI" VALUE="10.1111/j.1365-2923.2008.03108.x."/>
+</IDENTIFIERS>
+</STUDY>
+<STUDY DATA_SOURCE="PUB" ID="STD-Cook-2009b" MODIFIED="2013-09-20 11:23:14 -0300" MODIFIED_BY="[Empty name]" NAME="Cook 2009b" YEAR="2009b">
+<REFERENCE MODIFIED="2013-09-20 11:23:14 -0300" MODIFIED_BY="[Empty name]" PRIMARY="NO" TYPE="JOURNAL_ARTICLE">
+<AU>Cook DA, Thompson WG, Thomas KG, Thomas MR.</AU>
+<TI>Lack of interaction between sensing-intuitive learning styles and problem-first versus information-first instruction: a randomized crossover trial</TI>
+<TO>Lack of interaction between sensing-intuitive learning styles and problem-first versus information-first instruction: a randomized crossover trial</TO>
+<SO>Adv Health Sci Educ Theory Pract.</SO>
+<YR>2009</YR>
+<VL>14</VL>
+<NO>1</NO>
+<PG>79-90</PG>
+<IDENTIFIERS MODIFIED="2013-09-20 11:23:14 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-20 11:23:14 -0300" MODIFIED_BY="[Empty name]" TYPE="PUBMED" VALUE="18038188"/>
+</IDENTIFIERS>
+</REFERENCE>
+<IDENTIFIERS/>
+</STUDY>
+<STUDY DATA_SOURCE="PUB" ID="STD-Dennis-2003" MODIFIED="2013-09-19 11:19:14 -0300" MODIFIED_BY="[Empty name]" NAME="Dennis 2003" YEAR="2003">
+<REFERENCE MODIFIED="2013-09-19 11:19:14 -0300" MODIFIED_BY="[Empty name]" PRIMARY="NO" TYPE="JOURNAL_ARTICLE">
+<AU>Dennis JK.</AU>
+<TI>Problem-based learning in online vs. face-to-face environments.</TI>
+<TO>Problem-based learning in online vs. face-to-face environments.</TO>
+<SO>Educ Health (Abingdon)</SO>
+<YR>2003</YR>
+<VL>16</VL>
+<NO>2</NO>
+<PG>198-209</PG>
+<IDENTIFIERS MODIFIED="2013-09-19 11:19:14 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-19 11:19:13 -0300" MODIFIED_BY="[Empty name]" TYPE="PUBMED" VALUE="14741905"/>
+</IDENTIFIERS>
+</REFERENCE>
+<IDENTIFIERS/>
+</STUDY>
+<STUDY DATA_SOURCE="PUB" ID="STD-Fern_x00e1_ndez-Alem_x00e1_n-2011" MODIFIED="2013-09-19 10:18:21 -0300" MODIFIED_BY="[Empty name]" NAME="Fernández Alemán 2011" YEAR="2011">
+<REFERENCE MODIFIED="2013-09-19 10:18:21 -0300" MODIFIED_BY="[Empty name]" PRIMARY="NO" TYPE="JOURNAL_ARTICLE">
+<AU>Fernández Alemán JL, Carrillo de Gea JM, Rodríguez Mondéjar JJ.</AU>
+<TI>Effects of competitive computer-assisted learning versus conventional teaching methods on the acquisition andretention of knowledge in medical surgical nursing students.</TI>
+<TO>Effects of competitive computer-assisted learning versus conventional teaching methods on the acquisition andretention of knowledge in medical surgical nursing students.</TO>
+<SO>Nurse Educ Today</SO>
+<YR>2011</YR>
+<VL>31</VL>
+<NO>8</NO>
+<PG>866-71</PG>
+<IDENTIFIERS MODIFIED="2013-09-19 10:18:21 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-19 10:18:20 -0300" MODIFIED_BY="[Empty name]" TYPE="DOI" VALUE="10.1016/j.nedt.2010.12.026"/>
+</IDENTIFIERS>
+</REFERENCE>
+<IDENTIFIERS MODIFIED="2013-09-19 10:15:47 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-19 10:15:46 -0300" MODIFIED_BY="[Empty name]" TYPE="DOI" VALUE="10.1016/j.nedt.2010.12.026"/>
+</IDENTIFIERS>
+</STUDY>
+<STUDY DATA_SOURCE="PUB" ID="STD-Friedl-2006" MODIFIED="2013-09-20 11:02:28 -0300" MODIFIED_BY="[Empty name]" NAME="Friedl 2006" YEAR="2006">
+<REFERENCE MODIFIED="2013-09-20 11:02:28 -0300" MODIFIED_BY="[Empty name]" PRIMARY="NO" TYPE="JOURNAL_ARTICLE">
+<AU>Friedl R, Höppler H, Ecard K, Scholz W, Hannekum A, Ochsner W, Stracke S.</AU>
+<TI>Multimedia-driven teaching significantly improves students' performance when compared with a print medium.</TI>
+<TO>Multimedia-driven teaching significantly improves students' performance when compared with a print medium.</TO>
+<SO>Ann Thorac Surg</SO>
+<YR>2006</YR>
+<VL>81</VL>
+<NO>5</NO>
+<PG>1760-6</PG>
+<IDENTIFIERS MODIFIED="2013-09-20 11:02:28 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-20 11:02:28 -0300" MODIFIED_BY="[Empty name]" TYPE="PUBMED" VALUE="16631668"/>
+</IDENTIFIERS>
+</REFERENCE>
+<IDENTIFIERS/>
+</STUDY>
+<STUDY DATA_SOURCE="PUB" ID="STD-Friedl--2006" MODIFIED="2013-09-20 11:30:08 -0300" MODIFIED_BY="[Empty name]" NAME="Friedl  2006" YEAR="2006">
+<REFERENCE MODIFIED="2013-09-20 11:30:08 -0300" MODIFIED_BY="[Empty name]" PRIMARY="NO" TYPE="JOURNAL_ARTICLE">
+<AU>Friedl R, Höppler H, Ecard K, Scholz W, Hannekum A, Oechsner W, Stracke S.</AU>
+<TI>Comparative evaluation of multimedia driven, interactive, and case-based teaching in heart surgery.</TI>
+<TO>Comparative evaluation of multimedia driven, interactive, and case-based teaching in heart surgery.</TO>
+<SO>Ann Thorac Surg.</SO>
+<YR>2006</YR>
+<VL>82</VL>
+<NO>5</NO>
+<PG>1790-5</PG>
+<IDENTIFIERS MODIFIED="2013-09-20 11:30:08 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-20 11:30:08 -0300" MODIFIED_BY="[Empty name]" TYPE="PUBMED" VALUE="17062249"/>
+</IDENTIFIERS>
+</REFERENCE>
+<IDENTIFIERS/>
+</STUDY>
+<STUDY DATA_SOURCE="PUB" ID="STD-Gerdprasert-2010" MODIFIED="2013-09-19 10:23:09 -0300" MODIFIED_BY="[Empty name]" NAME="Gerdprasert 2010" YEAR="2010">
+<REFERENCE MODIFIED="2013-09-19 10:23:09 -0300" MODIFIED_BY="[Empty name]" PRIMARY="NO" TYPE="JOURNAL_ARTICLE">
+<AU>Gerdprasert S, Pruksacheva T, Panijpan B, Ruenwongsa P.</AU>
+<TI>Development of a web-based learning medium on mechanism of labour for nursing students.</TI>
+<TO>Development of a web-based learning medium on mechanism of labour for nursing students.</TO>
+<SO>Nurse Educ Today</SO>
+<YR>2010</YR>
+<VL>30</VL>
+<NO>5</NO>
+<PG>464-9</PG>
+<IDENTIFIERS MODIFIED="2013-09-19 10:23:09 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-19 10:23:06 -0300" MODIFIED_BY="[Empty name]" TYPE="DOI" VALUE="10.1016/j.nedt.2009.10.007"/>
+</IDENTIFIERS>
+</REFERENCE>
+<IDENTIFIERS MODIFIED="2013-09-19 10:20:53 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-19 10:20:53 -0300" MODIFIED_BY="[Empty name]" TYPE="DOI" VALUE="10.1016/j.nedt.2009.10.007"/>
+</IDENTIFIERS>
+</STUDY>
+<STUDY DATA_SOURCE="PUB" ID="STD-Grundman-2000" MODIFIED="2013-09-19 11:04:47 -0300" MODIFIED_BY="[Empty name]" NAME="Grundman 2000" YEAR="2000">
+<REFERENCE MODIFIED="2013-09-19 11:04:47 -0300" MODIFIED_BY="[Empty name]" PRIMARY="NO" TYPE="JOURNAL_ARTICLE">
+<AU>Grundman JA, Wigton RS, Nickol D.</AU>
+<TI>A controlled trial of an interactive, web-based virtual reality program for teaching physical diagnosis skills tomedical students</TI>
+<TO>A controlled trial of an interactive, web-based virtual reality program for teaching physical diagnosis skills tomedical students</TO>
+<SO>Acad Med</SO>
+<YR>2000</YR>
+<VL>75</VL>
+<NO>10Suppl</NO>
+<PG>S47-9</PG>
+<IDENTIFIERS MODIFIED="2013-09-19 11:04:47 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-19 11:04:45 -0300" MODIFIED_BY="[Empty name]" TYPE="PUBMED" VALUE="11031171"/>
+</IDENTIFIERS>
+</REFERENCE>
+<IDENTIFIERS/>
+</STUDY>
+<STUDY DATA_SOURCE="PUB" ID="STD-Horiuchi-2009" MODIFIED="2013-09-19 10:27:16 -0300" MODIFIED_BY="[Empty name]" NAME="Horiuchi 2009" YEAR="2009">
+<REFERENCE MODIFIED="2013-09-19 10:27:16 -0300" MODIFIED_BY="[Empty name]" PRIMARY="NO" TYPE="JOURNAL_ARTICLE">
+<AU>Horiuchi S, Yaju Y, Koyo M, Sakyo Y, Nakayama K.</AU>
+<TI>Evaluation of a web-based graduate continuing nursing education program in Japan: A randomized controlledtrial.</TI>
+<TO>Evaluation of a web-based graduate continuing nursing education program in Japan: A randomized controlledtrial.</TO>
+<SO>Nurse Educ Today</SO>
+<YR>2009</YR>
+<VL>29</VL>
+<NO>2</NO>
+<PG>140-9</PG>
+<IDENTIFIERS MODIFIED="2013-09-19 10:27:16 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-19 10:27:16 -0300" MODIFIED_BY="[Empty name]" TYPE="DOI" VALUE="10.1016/j.nedt.2008.08.009"/>
+</IDENTIFIERS>
+</REFERENCE>
+<IDENTIFIERS MODIFIED="2013-09-19 10:24:45 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-19 10:24:45 -0300" MODIFIED_BY="[Empty name]" TYPE="DOI" VALUE="10.1016/j.nedt.2008.08.009."/>
+</IDENTIFIERS>
+</STUDY>
+<STUDY DATA_SOURCE="PUB" ID="STD-Kopp-2008" MODIFIED="2013-09-20 11:17:51 -0300" MODIFIED_BY="[Empty name]" NAME="Kopp 2008" YEAR="2008">
+<REFERENCE MODIFIED="2013-09-20 11:17:51 -0300" MODIFIED_BY="[Empty name]" PRIMARY="NO" TYPE="JOURNAL_ARTICLE">
+<AU>Kopp V, Stark R, Fischer MR.</AU>
+<TI>Fostering diagnostic knowledge through computer-supported, case-based worked examples: effects oferroneous examples and feedback.</TI>
+<TO>Fostering diagnostic knowledge through computer-supported, case-based worked examples: effects oferroneous examples and feedback.</TO>
+<SO>Med Educ.</SO>
+<YR>2008</YR>
+<VL>42</VL>
+<NO>8</NO>
+<PG>823-9</PG>
+<IDENTIFIERS MODIFIED="2013-09-20 11:17:51 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-20 11:17:51 -0300" MODIFIED_BY="[Empty name]" TYPE="DOI" VALUE="10.1111/j.1365-2923.2008.03122.x"/>
+</IDENTIFIERS>
+</REFERENCE>
+<IDENTIFIERS MODIFIED="2013-09-20 11:16:09 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-20 11:16:09 -0300" MODIFIED_BY="[Empty name]" TYPE="DOI" VALUE="10.1111/j.1365-2923.2008.03122.x."/>
+</IDENTIFIERS>
+</STUDY>
+<STUDY DATA_SOURCE="PUB" ID="STD-Leong-2003" MODIFIED="2013-09-19 11:21:51 -0300" MODIFIED_BY="[Empty name]" NAME="Leong 2003" YEAR="2003">
+<REFERENCE MODIFIED="2013-09-19 11:21:51 -0300" MODIFIED_BY="[Empty name]" PRIMARY="NO" TYPE="JOURNAL_ARTICLE">
+<AU>Leong SL, Baldwin CD, Adelman AM.</AU>
+<TI>Integrating Web-based computer cases into a required clerkship: development and evaluation</TI>
+<TO>Integrating Web-based computer cases into a required clerkship: development and evaluation</TO>
+<SO>Acad Med.</SO>
+<YR>2003</YR>
+<VL>78</VL>
+<NO>3</NO>
+<PG>295-301</PG>
+<IDENTIFIERS MODIFIED="2013-09-19 11:21:51 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-19 11:21:49 -0300" MODIFIED_BY="[Empty name]" TYPE="PUBMED" VALUE="12634211"/>
+</IDENTIFIERS>
+</REFERENCE>
+<IDENTIFIERS/>
+</STUDY>
+<STUDY DATA_SOURCE="PUB" ID="STD-Lu-2009" MODIFIED="2013-09-19 10:32:04 -0300" MODIFIED_BY="[Empty name]" NAME="Lu 2009" YEAR="2009">
+<REFERENCE MODIFIED="2013-09-19 10:32:04 -0300" MODIFIED_BY="[Empty name]" PRIMARY="NO" TYPE="JOURNAL_ARTICLE">
+<AU>Lu DF, Lin ZC, Li YJ.</AU>
+<TI>Effects of a Web-based course on nursing skills and knowledge learning</TI>
+<TO>Effects of a Web-based course on nursing skills and knowledge learning</TO>
+<SO>J Nurs Educ</SO>
+<YR>2009</YR>
+<VL>48</VL>
+<NO>2</NO>
+<PG>70-7</PG>
+<IDENTIFIERS MODIFIED="2013-09-19 10:32:04 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-19 10:32:02 -0300" MODIFIED_BY="[Empty name]" TYPE="PUBMED" VALUE="19260398"/>
+</IDENTIFIERS>
+</REFERENCE>
+<IDENTIFIERS MODIFIED="2013-09-19 10:30:05 -0300" MODIFIED_BY="[Empty name]"/>
+</STUDY>
+<STUDY DATA_SOURCE="PUB" ID="STD-M_x00e4_kinen-2006" MODIFIED="2013-09-19 10:36:11 -0300" MODIFIED_BY="[Empty name]" NAME="Mäkinen 2006" YEAR="2006">
+<REFERENCE MODIFIED="2013-09-19 10:36:11 -0300" MODIFIED_BY="[Empty name]" PRIMARY="NO" TYPE="JOURNAL_ARTICLE">
+<AU>Mäkinen M, Castrèn M, Tolska T, Nurmi J, Niemi-Murola L.</AU>
+<TI>Teaching basic life support to nurses.</TI>
+<TO>Teaching basic life support to nurses.</TO>
+<SO>Eur J Anaesthesiol.</SO>
+<YR>2006</YR>
+<VL>23</VL>
+<NO>4</NO>
+<PG>327-31</PG>
+<IDENTIFIERS MODIFIED="2013-09-19 10:36:11 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-19 10:36:10 -0300" MODIFIED_BY="[Empty name]" TYPE="PUBMED" VALUE="16438766 "/>
+</IDENTIFIERS>
+</REFERENCE>
+<IDENTIFIERS/>
+</STUDY>
+<STUDY DATA_SOURCE="PUB" ID="STD-Mattheos-2004" MODIFIED="2013-09-19 11:25:16 -0300" MODIFIED_BY="[Empty name]" NAME="Mattheos 2004" YEAR="2004">
+<REFERENCE MODIFIED="2013-09-19 11:25:16 -0300" MODIFIED_BY="[Empty name]" PRIMARY="NO" TYPE="JOURNAL_ARTICLE">
+<AU>Mattheos N, Nattestad A, Christersson C, Jansson H, Attström R.</AU>
+<TI>The effects of an interactive software application on the self-assessment ability of dental students.</TI>
+<TO>The effects of an interactive software application on the self-assessment ability of dental students.</TO>
+<SO>Eur J Dent Educ.</SO>
+<YR>2004</YR>
+<VL>8</VL>
+<NO>3</NO>
+<PG>97-104</PG>
+<IDENTIFIERS MODIFIED="2013-09-19 11:25:16 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-19 11:25:16 -0300" MODIFIED_BY="[Empty name]" TYPE="PUBMED" VALUE="15233773"/>
+</IDENTIFIERS>
+</REFERENCE>
+<IDENTIFIERS/>
+</STUDY>
+<STUDY DATA_SOURCE="PUB" ID="STD-McMullan-2011" MODIFIED="2013-09-19 10:39:46 -0300" MODIFIED_BY="[Empty name]" NAME="McMullan 2011" YEAR="2011">
+<REFERENCE MODIFIED="2013-09-19 10:39:46 -0300" MODIFIED_BY="[Empty name]" PRIMARY="NO" TYPE="JOURNAL_ARTICLE">
+<AU>McMullan M, Jones R, Lea S.</AU>
+<TI>The effect of an interactive e-drug calculations package on nursing students' drug calculation ability and self-efficacy.</TI>
+<TO>The effect of an interactive e-drug calculations package on nursing students' drug calculation ability and self-efficacy.</TO>
+<SO>Int J Med Inform.</SO>
+<YR>2011</YR>
+<VL>80</VL>
+<NO>6</NO>
+<PG>421-30</PG>
+<IDENTIFIERS MODIFIED="2013-09-19 10:39:46 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-19 10:39:46 -0300" MODIFIED_BY="[Empty name]" TYPE="DOI" VALUE="10.1016/j.ijmedinf.2010.10.021"/>
+</IDENTIFIERS>
+</REFERENCE>
+<IDENTIFIERS MODIFIED="2013-09-19 10:37:42 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-19 10:37:41 -0300" MODIFIED_BY="[Empty name]" TYPE="DOI" VALUE="10.1016/j.ijmedinf.2010.10.021"/>
+</IDENTIFIERS>
+</STUDY>
+<STUDY DATA_SOURCE="PUB" ID="STD-Nicholson-2006" MODIFIED="2013-09-20 11:06:11 -0300" MODIFIED_BY="[Empty name]" NAME="Nicholson 2006" YEAR="2006">
+<REFERENCE MODIFIED="2013-09-20 11:06:11 -0300" MODIFIED_BY="[Empty name]" PRIMARY="NO" TYPE="JOURNAL_ARTICLE">
+<AU>Nicholson DT, Chalk C, Funnell WR, Daniel SJ.</AU>
+<TI>Can virtual reality improve anatomy education? A randomised controlled study of a computer-generated three-dimensional anatomical ear model.</TI>
+<TO>Can virtual reality improve anatomy education? A randomised controlled study of a computer-generated three-dimensional anatomical ear model.</TO>
+<SO>Med Educ.</SO>
+<YR>2006</YR>
+<VL>40</VL>
+<NO>11</NO>
+<PG>1081-7</PG>
+<IDENTIFIERS MODIFIED="2013-09-20 11:06:11 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-20 11:06:11 -0300" MODIFIED_BY="[Empty name]" TYPE="PUBMED" VALUE="17054617"/>
+</IDENTIFIERS>
+</REFERENCE>
+<IDENTIFIERS/>
+</STUDY>
+<STUDY DATA_SOURCE="PUB" ID="STD-Papa-1999" MODIFIED="2013-09-19 10:58:59 -0300" MODIFIED_BY="[Empty name]" NAME="Papa 1999" YEAR="1999">
+<REFERENCE MODIFIED="2013-09-19 10:58:59 -0300" MODIFIED_BY="[Empty name]" PRIMARY="NO" TYPE="JOURNAL_ARTICLE">
+<AU>Papa FJ, Aldrich D, Schumacker RE.</AU>
+<TI>The effects of immediate online feedback upon diagnostic performance</TI>
+<TO>The effects of immediate online feedback upon diagnostic performance</TO>
+<SO>Acad Med.</SO>
+<YR>1999</YR>
+<VL>74</VL>
+<NO>10Suppl</NO>
+<PG>S16-8</PG>
+<IDENTIFIERS MODIFIED="2013-09-19 10:58:59 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-19 10:58:57 -0300" MODIFIED_BY="[Empty name]" TYPE="PUBMED" VALUE="10536581"/>
+</IDENTIFIERS>
+</REFERENCE>
+<IDENTIFIERS/>
+</STUDY>
+<STUDY DATA_SOURCE="PUB" ID="STD-Schittek-Janda-2005" MODIFIED="2013-09-19 11:36:50 -0300" MODIFIED_BY="[Empty name]" NAME="Schittek Janda 2005" YEAR="2005">
+<REFERENCE MODIFIED="2013-09-19 11:36:50 -0300" MODIFIED_BY="[Empty name]" PRIMARY="NO" TYPE="JOURNAL_ARTICLE">
+<AU>Schittek Janda M, Tani Botticelli A, Mattheos N, Nebel D, Wagner A, Nattestad A, Attström R.</AU>
+<TI>Computer-mediated instructional video: a randomised controlled trial comparing a sequential and a segmentedinstructional video in surgical hand wash</TI>
+<TO>Computer-mediated instructional video: a randomised controlled trial comparing a sequential and a segmentedinstructional video in surgical hand wash</TO>
+<SO>Eur J Dent Educ.</SO>
+<YR>2005</YR>
+<VL>9</VL>
+<NO>2</NO>
+<PG>53-8</PG>
+<IDENTIFIERS MODIFIED="2013-09-19 11:36:50 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-19 11:36:49 -0300" MODIFIED_BY="[Empty name]" TYPE="PUBMED" VALUE="15811151"/>
+</IDENTIFIERS>
+</REFERENCE>
+<IDENTIFIERS/>
+</STUDY>
+<STUDY DATA_SOURCE="PUB" ID="STD-Smeekens-2011" MODIFIED="2013-09-19 10:55:54 -0300" MODIFIED_BY="[Empty name]" NAME="Smeekens 2011" YEAR="2011">
+<REFERENCE MODIFIED="2013-09-19 10:55:54 -0300" MODIFIED_BY="[Empty name]" PRIMARY="NO" TYPE="JOURNAL_ARTICLE">
+<AU>Smeekens AE, Broekhuijsen-van Henten DM, Sittig JS, Russel IM, ten Cate OT, Turner NM, van de Putte EM.</AU>
+<TI>Successful e-learning programme on the detection of child abuse in emergency departments: a randomisedcontrolled trial.</TI>
+<TO>Successful e-learning programme on the detection of child abuse in emergency departments: a randomisedcontrolled trial.</TO>
+<SO>Arch Dis Child</SO>
+<YR>2011</YR>
+<VL>96</VL>
+<NO>4</NO>
+<PG>330-4</PG>
+<IDENTIFIERS MODIFIED="2013-09-19 10:55:54 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-19 10:55:54 -0300" MODIFIED_BY="[Empty name]" TYPE="DOI" VALUE="10.1136/adc.2010.190801"/>
+</IDENTIFIERS>
+</REFERENCE>
+<IDENTIFIERS MODIFIED="2013-09-19 10:48:19 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-19 10:48:18 -0300" MODIFIED_BY="[Empty name]" TYPE="DOI" VALUE="10.1136/adc.2010.190801"/>
+</IDENTIFIERS>
+</STUDY>
+<STUDY DATA_SOURCE="PUB" ID="STD-Spickard-2002" MODIFIED="2013-09-19 11:16:26 -0300" MODIFIED_BY="[Empty name]" NAME="Spickard 2002" YEAR="2002">
+<REFERENCE MODIFIED="2013-09-19 11:16:26 -0300" MODIFIED_BY="[Empty name]" PRIMARY="NO" TYPE="JOURNAL_ARTICLE">
+<AU>Spickard A 3rd, Alrajeh N, Cordray D, Gigante J.</AU>
+<TI>Learning about screening using an online or live lecture: does it matter?</TI>
+<TO>Learning about screening using an online or live lecture: does it matter?</TO>
+<SO>J Gen Intern Med.</SO>
+<YR>2002</YR>
+<VL>17</VL>
+<NO>7</NO>
+<PG>540-5</PG>
+<IDENTIFIERS MODIFIED="2013-09-19 11:16:26 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-19 11:16:24 -0300" MODIFIED_BY="[Empty name]" TYPE="PUBMED" VALUE="12133144"/>
+</IDENTIFIERS>
+</REFERENCE>
+<IDENTIFIERS/>
+</STUDY>
+<STUDY DATA_SOURCE="PUB" ID="STD-Spickard-2004" MODIFIED="2013-09-19 11:28:13 -0300" MODIFIED_BY="[Empty name]" NAME="Spickard 2004" YEAR="2004">
+<REFERENCE MODIFIED="2013-09-19 11:28:13 -0300" MODIFIED_BY="[Empty name]" PRIMARY="NO" TYPE="JOURNAL_ARTICLE">
+<AU>Spickard A 3rd, Smithers J, Cordray D, Gigante J, Wofford JL.</AU>
+<TI>A randomised trial of an online lecture with and without audio</TI>
+<TO>A randomised trial of an online lecture with and without audio</TO>
+<SO>Med Educ</SO>
+<YR>2004</YR>
+<VL>38</VL>
+<NO>7</NO>
+<PG>787-90</PG>
+<IDENTIFIERS MODIFIED="2013-09-19 11:28:13 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-19 11:28:11 -0300" MODIFIED_BY="[Empty name]" TYPE="PUBMED" VALUE="15200403"/>
+</IDENTIFIERS>
+</REFERENCE>
+<IDENTIFIERS/>
+</STUDY>
+<STUDY DATA_SOURCE="PUB" ID="STD-Tunuguntla-2008" MODIFIED="2013-09-20 11:20:26 -0300" MODIFIED_BY="[Empty name]" NAME="Tunuguntla 2008" YEAR="2008">
+<REFERENCE MODIFIED="2013-09-20 11:20:26 -0300" MODIFIED_BY="[Empty name]" PRIMARY="NO" TYPE="JOURNAL_ARTICLE">
+<AU>Tunuguntla R, Rodriguez O, Ruiz JG, Qadri SS, Mintzer MJ, Van Zuilen MH, Roos BA.</AU>
+<TI>Computer-based animations and static graphics as medical student aids in learning home safety assessment: arandomized controlled trial.</TI>
+<TO>Computer-based animations and static graphics as medical student aids in learning home safety assessment: arandomized controlled trial.</TO>
+<SO>Med Teach.</SO>
+<YR>2008</YR>
+<VL>30</VL>
+<NO>8</NO>
+<PG>815-7</PG>
+<IDENTIFIERS MODIFIED="2013-09-20 11:20:26 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-20 11:20:26 -0300" MODIFIED_BY="[Empty name]" TYPE="DOI" VALUE="10.1080/01421590802263508."/>
+</IDENTIFIERS>
+</REFERENCE>
+<IDENTIFIERS/>
+</STUDY>
+</INCLUDED_STUDIES>
+<EXCLUDED_STUDIES/>
+<AWAITING_STUDIES/>
+<ONGOING_STUDIES/>
+</STUDIES>
+<OTHER_REFERENCES MODIFIED="2013-09-20 11:39:45 -0300" MODIFIED_BY="[Empty name]">
+<ADDITIONAL_REFERENCES MODIFIED="2013-09-20 11:39:45 -0300" MODIFIED_BY="[Empty name]">
+<REFERENCE ID="REF-Cook-2010" MODIFIED="2013-09-20 11:35:52 -0300" MODIFIED_BY="[Empty name]" NAME="Cook 2010" TYPE="JOURNAL_ARTICLE">
+<AU>Cook DA, Levinson AJ, Garside S</AU>
+<TI>Time and learning efficiency in Internet-based learning: a systematic review and meta-analysis</TI>
+<TO>Time and learning efficiency in Internet-based learning: a systematic review and meta-analysis</TO>
+<SO>Adv Health Sci Educ Theory Pract.</SO>
+<YR>2010</YR>
+<VL>15</VL>
+<NO>5</NO>
+<PG>755-70</PG>
+<IDENTIFIERS MODIFIED="2013-09-20 11:35:52 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-20 11:35:52 -0300" MODIFIED_BY="[Empty name]" TYPE="DOI" VALUE="10.1007/s10459-010-9231-x. "/>
+</IDENTIFIERS>
+</REFERENCE>
+<REFERENCE ID="REF-Du-2013" MODIFIED="2013-09-20 11:33:25 -0300" MODIFIED_BY="[Empty name]" NAME="Du 2013" TYPE="JOURNAL_ARTICLE">
+<AU>Du S, Liu Z, Liu S, Yin H, Xu G, Zhang H, Wang A.</AU>
+<TI>Web-based distance learning for nurse education: a systematic review.</TI>
+<TO>Web-based distance learning for nurse education: a systematic review.</TO>
+<SO>Int Nurs Rev.</SO>
+<YR>2013</YR>
+<VL>60</VL>
+<NO>2</NO>
+<PG>167-77</PG>
+<IDENTIFIERS MODIFIED="2013-09-20 11:33:25 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-20 11:33:25 -0300" MODIFIED_BY="[Empty name]" TYPE="DOI" VALUE="10.1111/inr.12015"/>
+</IDENTIFIERS>
+</REFERENCE>
+<REFERENCE ID="REF-J_x00fc_ni-1999" MODIFIED="2013-09-20 11:39:45 -0300" MODIFIED_BY="[Empty name]" NAME="Jüni 1999" TYPE="JOURNAL_ARTICLE">
+<AU>Jüni P, Witschi A, Bloch R, Egger M.</AU>
+<TI>The hazards of scoring the quality of clinical trials for meta-analysis.</TI>
+<TO>The hazards of scoring the quality of clinical trials for meta-analysis.</TO>
+<SO>JAMA</SO>
+<YR>1999</YR>
+<VL>282</VL>
+<NO>11</NO>
+<PG>1054-60</PG>
+<IDENTIFIERS MODIFIED="2013-09-20 11:39:45 -0300" MODIFIED_BY="[Empty name]">
+<IDENTIFIER MODIFIED="2013-09-20 11:39:45 -0300" MODIFIED_BY="[Empty name]" TYPE="PUBMED" VALUE="10493204"/>
+</IDENTIFIERS>
+</REFERENCE>
+</ADDITIONAL_REFERENCES>
+<OTHER_VERSIONS_REFERENCES/>
+<PENDING_REFERENCES/>
+</OTHER_REFERENCES>
+</STUDIES_AND_REFERENCES>
+<CHARACTERISTICS_OF_STUDIES MODIFIED="2013-09-20 20:39:01 -0300" MODIFIED_BY="[Empty name]">
+<CHARACTERISTICS_OF_INCLUDED_STUDIES MODIFIED="2013-09-20 20:39:01 -0300" MODIFIED_BY="[Empty name]" SORT_BY="STUDY" USER_DEF_1_ENABLED="NO" USER_DEF_2_ENABLED="NO" USER_DEF_3_ENABLED="NO">
+<INCLUDED_CHAR MODIFIED="2013-09-20 12:39:50 -0300" MODIFIED_BY="[Empty name]" STUDY_ID="STD-Bell-2000">
+<CHAR_METHODS MODIFIED="2013-09-20 12:11:39 -0300" MODIFIED_BY="[Empty name]">
+<P>Randomised controlled trial</P>
+</CHAR_METHODS>
+<CHAR_PARTICIPANTS MODIFIED="2013-09-20 12:15:41 -0300" MODIFIED_BY="[Empty name]">
+<P>162 ( SAGE group 82, control 76), residents, mean age 29.1 y</P>
+</CHAR_PARTICIPANTS>
+<CHAR_INTERVENTIONS MODIFIED="2013-09-20 12:24:51 -0300" MODIFIED_BY="[Empty name]">
+<P>Participants were randomly assigned to study from printed materials or from SAGE (Self-Study Acceleration with Graphic Evidence), a Web-based tutorial system.</P>
+<P>SAGE featured hyperlinks to specific</P>
+<P>guideline passages and graphic evidence animations.</P>
+</CHAR_INTERVENTIONS>
+<CHAR_OUTCOMES MODIFIED="2013-09-20 12:39:50 -0300" MODIFIED_BY="[Empty name]">
+<P>-Knowledge on the immediate post test</P>
+<P>-Time spent studing (measured by using a time-stamp)</P>
+<P>-Learning efficiency (calculated as the point gain from protest to immediate post-test divided by the time spent studying)</P>
+<P>- Learner satisfaction (measured by using 5 items taken from an ACP-ASIM course evaluation survey for continuing medical education) </P>
+</CHAR_OUTCOMES>
+<CHAR_NOTES/>
+</INCLUDED_CHAR>
+<INCLUDED_CHAR MODIFIED="2013-09-20 18:01:26 -0300" MODIFIED_BY="[Empty name]" STUDY_ID="STD-Blackmore-2006">
+<CHAR_METHODS MODIFIED="2013-09-20 18:00:30 -0300" MODIFIED_BY="[Empty name]"/>
+<CHAR_PARTICIPANTS MODIFIED="2013-09-20 18:00:46 -0300" MODIFIED_BY="[Empty name]"/>
+<CHAR_INTERVENTIONS MODIFIED="2013-09-20 18:01:12 -0300" MODIFIED_BY="[Empty name]"/>
+<CHAR_OUTCOMES MODIFIED="2013-09-20 18:01:26 -0300" MODIFIED_BY="[Empty name]"/>
+<CHAR_NOTES/>
+</INCLUDED_CHAR>
+<INCLUDED_CHAR MODIFIED="2013-09-20 18:01:31 -0300" MODIFIED_BY="[Empty name]" STUDY_ID="STD-Bloomfield-2010">
+<CHAR_METHODS MODIFIED="2013-09-20 18:00:34 -0300" MODIFIED_BY="[Empty name]">
+<P>Randomised controlled trial</P>
+</CHAR_METHODS>
+<CHAR_PARTICIPANTS MODIFIED="2013-09-20 18:00:53 -0300" MODIFIED_BY="[Empty name]">
+<P>First year nursing students (n = 420), 118 intervention group, 113 control, age between 17 and 55 years</P>
+</CHAR_PARTICIPANTS>
+<CHAR_INTERVENTIONS MODIFIED="2013-09-20 18:01:07 -0300" MODIFIED_BY="[Empty name]">
+<P>The intervention group used an interactive, multimedia, self-directed computer-assisted learning module. The control group was taught by an experienced lecturer in a clinical skills room</P>
+</CHAR_INTERVENTIONS>
+<CHAR_OUTCOMES MODIFIED="2013-09-20 18:01:31 -0300" MODIFIED_BY="[Empty name]">
+<P>- Knowledge gain, measured using a multiplechoice test that consisted of 20 questions.</P>
+<P>- Handwashing skill performance, was tested under Objective Structured Clinical Examination (OSCE)</P>
+</CHAR_OUTCOMES>
+<CHAR_NOTES/>
+</INCLUDED_CHAR>
+<INCLUDED_CHAR MODIFIED="2013-09-20 18:23:36 -0300" MODIFIED_BY="[Empty name]" STUDY_ID="STD-Chiu-2009">
+<CHAR_METHODS MODIFIED="2013-09-20 18:04:58 -0300" MODIFIED_BY="[Empty name]">
+<P>An experimental research design with two groups, one pre-test and two post-tests was utilized</P>
+</CHAR_METHODS>
+<CHAR_PARTICIPANTS MODIFIED="2013-09-20 18:07:12 -0300" MODIFIED_BY="[Empty name]">
+<P>137 nurses with neurology specialty at neurology and neurosurgery.The experimental C-NIHSS interactive computer assisted instruction (ICAI) group (n = 44) or the Instructor-led videotape learning program (IVLP) group (n = 40)</P>
+</CHAR_PARTICIPANTS>
+<CHAR_INTERVENTIONS MODIFIED="2013-09-20 18:17:09 -0300" MODIFIED_BY="[Empty name]">
+<P>Instructor-led videotape learning program(IVLP) and Interactive computer assisted instruction (ICAI)</P>
+</CHAR_INTERVENTIONS>
+<CHAR_OUTCOMES MODIFIED="2013-09-20 18:23:36 -0300" MODIFIED_BY="[Empty name]">
+<P>- The correctness of assessment by referring to the videotape developed ( Score verification unit)</P>
+<P>- Learner satisfaction ( Learner satisfaction scale)</P>
+</CHAR_OUTCOMES>
+<CHAR_NOTES/>
+</INCLUDED_CHAR>
+<INCLUDED_CHAR MODIFIED="2013-09-20 18:55:15 -0300" MODIFIED_BY="[Empty name]" STUDY_ID="STD-Cook-2005">
+<CHAR_METHODS MODIFIED="2013-09-20 18:27:07 -0300" MODIFIED_BY="[Empty name]">
+<P>Randomized, controlled, crossover study</P>
+</CHAR_METHODS>
+<CHAR_PARTICIPANTS MODIFIED="2013-09-20 18:32:57 -0300" MODIFIED_BY="[Empty name]">
+<P>109 the internal medicine residents</P>
+</CHAR_PARTICIPANTS>
+<CHAR_INTERVENTIONS MODIFIED="2013-09-20 18:34:52 -0300" MODIFIED_BY="[Empty name]">
+<P>Web-based (WB) modules or paper practice guidelines in randomly assigned sequences.</P>
+</CHAR_INTERVENTIONS>
+<CHAR_OUTCOMES MODIFIED="2013-09-20 18:55:15 -0300" MODIFIED_BY="[Empty name]">
+<P>- Overall format preference, was assessed on an end-of-course questionnaire using a five-point scale</P>
+<P>- knowledge gained, determined by change in test score</P>
+</CHAR_OUTCOMES>
+<CHAR_NOTES/>
+</INCLUDED_CHAR>
+<INCLUDED_CHAR MODIFIED="2013-09-20 19:20:05 -0300" MODIFIED_BY="[Empty name]" STUDY_ID="STD-Cook-2006">
+<CHAR_METHODS MODIFIED="2013-09-20 19:01:03 -0300" MODIFIED_BY="[Empty name]">
+<P>Randomized controlled crossover trial</P>
+</CHAR_METHODS>
+<CHAR_PARTICIPANTS MODIFIED="2013-09-20 19:02:53 -0300" MODIFIED_BY="[Empty name]">
+<P>A total of 121 residents</P>
+</CHAR_PARTICIPANTS>
+<CHAR_INTERVENTIONS MODIFIED="2013-09-20 19:15:21 -0300" MODIFIED_BY="[Empty name]">
+<P>WBL modules with case-based self -assessment questions</P>
+<P>Participants completed two modules with questions</P>
+<P>and two modules without questions</P>
+</CHAR_INTERVENTIONS>
+<CHAR_OUTCOMES MODIFIED="2013-09-20 19:20:05 -0300" MODIFIED_BY="[Empty name]">
+<P>- Knowledge, was determined by score on a post-test at the end of each module</P>
+<P>- Format preference, was assessed on an end-of-course questionnaire using a scale</P>
+<P>- Learning style assessed, using the Index of Learning</P>
+<P>Styles</P>
+</CHAR_OUTCOMES>
+<CHAR_NOTES/>
+</INCLUDED_CHAR>
+<INCLUDED_CHAR MODIFIED="2013-09-20 19:36:29 -0300" MODIFIED_BY="[Empty name]" STUDY_ID="STD-Cook-2008-a">
+<CHAR_METHODS MODIFIED="2013-09-20 19:26:39 -0300" MODIFIED_BY="[Empty name]">
+<P>Randomized, crossover trial</P>
+</CHAR_METHODS>
+<CHAR_PARTICIPANTS MODIFIED="2013-09-20 19:27:03 -0300" MODIFIED_BY="[Empty name]">
+<P>122 internal medicine residents</P>
+</CHAR_PARTICIPANTS>
+<CHAR_INTERVENTIONS MODIFIED="2013-09-20 19:32:30 -0300" MODIFIED_BY="[Empty name]">
+<P>Four WBL modules on ambulatory medicine were developed in standard and adaptive formats.</P>
+</CHAR_INTERVENTIONS>
+<CHAR_OUTCOMES MODIFIED="2013-09-20 19:36:29 -0300" MODIFIED_BY="[Empty name]">
+<P>- Knowledge, was assessed using a posttest at the end of each module. </P>
+<P>- Time spent on each module</P>
+<P>- Preferred format and compare the perceived effectiveness and efficiency of the formats using 6-point scales</P>
+</CHAR_OUTCOMES>
+<CHAR_NOTES/>
+</INCLUDED_CHAR>
+<INCLUDED_CHAR MODIFIED="2013-09-20 19:48:20 -0300" MODIFIED_BY="[Empty name]" STUDY_ID="STD-Cook-2008-b">
+<CHAR_METHODS MODIFIED="2013-09-20 19:40:07 -0300" MODIFIED_BY="[Empty name]">
+<P>Randomised, crossover trial.</P>
+</CHAR_METHODS>
+<CHAR_PARTICIPANTS MODIFIED="2013-09-20 19:41:34 -0300" MODIFIED_BY="[Empty name]">
+<P>124 internal medicine residents</P>
+</CHAR_PARTICIPANTS>
+<CHAR_INTERVENTIONS MODIFIED="2013-09-20 19:44:25 -0300" MODIFIED_BY="[Empty name]">
+<P>Web-based modules two modules with, and two modules without complex cases.</P>
+</CHAR_INTERVENTIONS>
+<CHAR_OUTCOMES MODIFIED="2013-09-20 19:48:20 -0300" MODIFIED_BY="[Empty name]">
+<P>- Format preference, was assessed with an end-of-course questionnaire.</P>
+<P>- Knowledge was assessed using a post-test at the end of each module</P>
+</CHAR_OUTCOMES>
+<CHAR_NOTES/>
+</INCLUDED_CHAR>
+<INCLUDED_CHAR MODIFIED="2013-09-20 20:06:18 -0300" MODIFIED_BY="[Empty name]" STUDY_ID="STD-Cook-2009b">
+<CHAR_METHODS MODIFIED="2013-09-20 19:55:51 -0300" MODIFIED_BY="[Empty name]">
+<P>Randomized controlled, crossover trial</P>
+</CHAR_METHODS>
+<CHAR_PARTICIPANTS MODIFIED="2013-09-20 19:56:24 -0300" MODIFIED_BY="[Empty name]">
+<P>123 internal medicine residents</P>
+</CHAR_PARTICIPANTS>
+<CHAR_INTERVENTIONS MODIFIED="2013-09-20 20:04:16 -0300" MODIFIED_BY="[Empty name]">
+<P>Evidence-based WBL modules, two modules using the didactic format and two modules using the problem format.</P>
+</CHAR_INTERVENTIONS>
+<CHAR_OUTCOMES MODIFIED="2013-09-20 20:06:18 -0300" MODIFIED_BY="[Empty name]">
+<P>- Knowledge, was determined using a test at the end of each module.</P>
+<P>- Format preference, was assessed on an end-of-course questionnaire</P>
+<P>- Learning style was assessed using the Index of Learning Styles</P>
+</CHAR_OUTCOMES>
+<CHAR_NOTES/>
+</INCLUDED_CHAR>
+<INCLUDED_CHAR MODIFIED="2013-09-20 20:22:43 -0300" MODIFIED_BY="[Empty name]" STUDY_ID="STD-Dennis-2003">
+<CHAR_METHODS MODIFIED="2013-09-20 20:13:10 -0300" MODIFIED_BY="[Empty name]">
+<P>A post-test only control group design </P>
+</CHAR_METHODS>
+<CHAR_PARTICIPANTS MODIFIED="2013-09-20 20:22:43 -0300" MODIFIED_BY="[Empty name]">
+<P>34 students</P>
+</CHAR_PARTICIPANTS>
+<CHAR_INTERVENTIONS MODIFIED="2013-09-20 20:14:40 -0300" MODIFIED_BY="[Empty name]">
+<P>Online groups and face-to-face tutorial groups</P>
+</CHAR_INTERVENTIONS>
+<CHAR_OUTCOMES MODIFIED="2013-09-20 20:19:20 -0300" MODIFIED_BY="[Empty name]">
+<P>- Learning outcomes, measured by performance on course examination</P>
+<P>- Time-on-task, time spent in learning activities</P>
+<P>- Learning issue generation, recorded by each group during the first tutorial</P>
+</CHAR_OUTCOMES>
+<CHAR_NOTES MODIFIED="2013-09-20 20:11:19 -0300" MODIFIED_BY="[Empty name]">
+<P> </P>
+</CHAR_NOTES>
+</INCLUDED_CHAR>
+<INCLUDED_CHAR MODIFIED="2013-09-20 20:39:01 -0300" MODIFIED_BY="[Empty name]" STUDY_ID="STD-Fern_x00e1_ndez-Alem_x00e1_n-2011">
+<CHAR_METHODS MODIFIED="2013-09-20 20:33:47 -0300" MODIFIED_BY="[Empty name]">
+<P>The students were divided into two randomly formed groups</P>
+</CHAR_METHODS>
+<CHAR_PARTICIPANTS MODIFIED="2013-09-20 20:28:06 -0300" MODIFIED_BY="[Empty name]">
+<P>116 nursing students</P>
+</CHAR_PARTICIPANTS>
+<CHAR_INTERVENTIONS MODIFIED="2013-09-20 20:36:44 -0300" MODIFIED_BY="[Empty name]">
+<P>An experimental group used</P>
+<P>Mooshak and a control group received the same training but without using a web-based tool.</P>
+</CHAR_INTERVENTIONS>
+<CHAR_OUTCOMES MODIFIED="2013-09-20 20:39:01 -0300" MODIFIED_BY="[Empty name]">
+<P>- Baseline knowledge, was measured with SUMA</P>
+<P>- Knowledge gains, were measured using a MCQs test</P>
+</CHAR_OUTCOMES>
+<CHAR_NOTES/>
+</INCLUDED_CHAR>
+<INCLUDED_CHAR STUDY_ID="STD-Friedl--2006">
+<CHAR_METHODS/>
+<CHAR_PARTICIPANTS/>
+<CHAR_INTERVENTIONS/>
+<CHAR_OUTCOMES/>
+<CHAR_NOTES/>
+</INCLUDED_CHAR>
+<INCLUDED_CHAR STUDY_ID="STD-Friedl-2006">
+<CHAR_METHODS/>
+<CHAR_PARTICIPANTS/>
+<CHAR_INTERVENTIONS/>
+<CHAR_OUTCOMES/>
+<CHAR_NOTES/>
+</INCLUDED_CHAR>
+<INCLUDED_CHAR STUDY_ID="STD-Gerdprasert-2010">
+<CHAR_METHODS/>
+<CHAR_PARTICIPANTS/>
+<CHAR_INTERVENTIONS/>
+<CHAR_OUTCOMES/>
+<CHAR_NOTES/>
+</INCLUDED_CHAR>
+<INCLUDED_CHAR STUDY_ID="STD-Grundman-2000">
+<CHAR_METHODS/>
+<CHAR_PARTICIPANTS/>
+<CHAR_INTERVENTIONS/>
+<CHAR_OUTCOMES/>
+<CHAR_NOTES/>
+</INCLUDED_CHAR>
+<INCLUDED_CHAR STUDY_ID="STD-Horiuchi-2009">
+<CHAR_METHODS/>
+<CHAR_PARTICIPANTS/>
+<CHAR_INTERVENTIONS/>
+<CHAR_OUTCOMES/>
+<CHAR_NOTES/>
+</INCLUDED_CHAR>
+<INCLUDED_CHAR STUDY_ID="STD-Kopp-2008">
+<CHAR_METHODS/>
+<CHAR_PARTICIPANTS/>
+<CHAR_INTERVENTIONS/>
+<CHAR_OUTCOMES/>
+<CHAR_NOTES/>
+</INCLUDED_CHAR>
+<INCLUDED_CHAR STUDY_ID="STD-Leong-2003">
+<CHAR_METHODS/>
+<CHAR_PARTICIPANTS/>
+<CHAR_INTERVENTIONS/>
+<CHAR_OUTCOMES/>
+<CHAR_NOTES/>
+</INCLUDED_CHAR>
+<INCLUDED_CHAR STUDY_ID="STD-Lu-2009">
+<CHAR_METHODS/>
+<CHAR_PARTICIPANTS/>
+<CHAR_INTERVENTIONS/>
+<CHAR_OUTCOMES/>
+<CHAR_NOTES/>
+</INCLUDED_CHAR>
+<INCLUDED_CHAR STUDY_ID="STD-Mattheos-2004">
+<CHAR_METHODS/>
+<CHAR_PARTICIPANTS/>
+<CHAR_INTERVENTIONS/>
+<CHAR_OUTCOMES/>
+<CHAR_NOTES/>
+</INCLUDED_CHAR>
+<INCLUDED_CHAR STUDY_ID="STD-McMullan-2011">
+<CHAR_METHODS/>
+<CHAR_PARTICIPANTS/>
+<CHAR_INTERVENTIONS/>
+<CHAR_OUTCOMES/>
+<CHAR_NOTES/>
+</INCLUDED_CHAR>
+<INCLUDED_CHAR STUDY_ID="STD-M_x00e4_kinen-2006">
+<CHAR_METHODS/>
+<CHAR_PARTICIPANTS/>
+<CHAR_INTERVENTIONS/>
+<CHAR_OUTCOMES/>
+<CHAR_NOTES/>
+</INCLUDED_CHAR>
+<INCLUDED_CHAR STUDY_ID="STD-Nicholson-2006">
+<CHAR_METHODS/>
+<CHAR_PARTICIPANTS/>
+<CHAR_INTERVENTIONS/>
+<CHAR_OUTCOMES/>
+<CHAR_NOTES/>
+</INCLUDED_CHAR>
+<INCLUDED_CHAR STUDY_ID="STD-Papa-1999">
+<CHAR_METHODS/>
+<CHAR_PARTICIPANTS/>
+<CHAR_INTERVENTIONS/>
+<CHAR_OUTCOMES/>
+<CHAR_NOTES/>
+</INCLUDED_CHAR>
+<INCLUDED_CHAR STUDY_ID="STD-Schittek-Janda-2005">
+<CHAR_METHODS/>
+<CHAR_PARTICIPANTS/>
+<CHAR_INTERVENTIONS/>
+<CHAR_OUTCOMES/>
+<CHAR_NOTES/>
+</INCLUDED_CHAR>
+<INCLUDED_CHAR STUDY_ID="STD-Smeekens-2011">
+<CHAR_METHODS/>
+<CHAR_PARTICIPANTS/>
+<CHAR_INTERVENTIONS/>
+<CHAR_OUTCOMES/>
+<CHAR_NOTES/>
+</INCLUDED_CHAR>
+<INCLUDED_CHAR STUDY_ID="STD-Spickard-2002">
+<CHAR_METHODS/>
+<CHAR_PARTICIPANTS/>
+<CHAR_INTERVENTIONS/>
+<CHAR_OUTCOMES/>
+<CHAR_NOTES/>
+</INCLUDED_CHAR>
+<INCLUDED_CHAR STUDY_ID="STD-Spickard-2004">
+<CHAR_METHODS/>
+<CHAR_PARTICIPANTS/>
+<CHAR_INTERVENTIONS/>
+<CHAR_OUTCOMES/>
+<CHAR_NOTES/>
+</INCLUDED_CHAR>
+<INCLUDED_CHAR STUDY_ID="STD-Tunuguntla-2008">
+<CHAR_METHODS/>
+<CHAR_PARTICIPANTS/>
+<CHAR_INTERVENTIONS/>
+<CHAR_OUTCOMES/>
+<CHAR_NOTES/>
+</INCLUDED_CHAR>
+<FOOTNOTES/>
+</CHARACTERISTICS_OF_INCLUDED_STUDIES>
+<CHARACTERISTICS_OF_EXCLUDED_STUDIES SORT_BY="STUDY">
+<FOOTNOTES/>
+</CHARACTERISTICS_OF_EXCLUDED_STUDIES>
+<CHARACTERISTICS_OF_AWAITING_STUDIES SORT_BY="STUDY" USER_DEF_1_ENABLED="NO" USER_DEF_2_ENABLED="NO" USER_DEF_3_ENABLED="NO">
+<FOOTNOTES/>
+</CHARACTERISTICS_OF_AWAITING_STUDIES>
+<CHARACTERISTICS_OF_ONGOING_STUDIES SORT_BY="STUDY" USER_DEF_1_ENABLED="NO" USER_DEF_2_ENABLED="NO" USER_DEF_3_ENABLED="NO">
+<FOOTNOTES/>
+</CHARACTERISTICS_OF_ONGOING_STUDIES>
+</CHARACTERISTICS_OF_STUDIES>
+<QUALITY_ITEMS MODIFIED="2013-09-20 17:59:07 -0300" MODIFIED_BY="[Empty name]">
+<QUALITY_ITEM CORE_ITEM="YES" ID="QIT-01" LEVEL="STUDY" MODIFIED="2013-09-20 17:59:02 -0300" MODIFIED_BY="[Empty name]" NO="1">
+<NAME>Random sequence generation (selection bias)</NAME>
+<DESCRIPTION>
+<P>Selection bias (biased allocation to interventions) due to inadequate generation of a randomised sequence</P>
+</DESCRIPTION>
+<QUALITY_ITEM_DATA>
+<QUALITY_ITEM_DATA_ENTRY MODIFIED="2013-09-20 12:48:38 -0300" MODIFIED_BY="[Empty name]" RESULT="YES" STUDY_ID="STD-Bell-2000">
+<DESCRIPTION>
+<P>Participants were accessed by a computer program that generated blocked randomization stratified by sex and residency year</P>
+</DESCRIPTION>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY MODIFIED="2013-09-20 17:59:02 -0300" MODIFIED_BY="[Empty name]" RESULT="YES" STUDY_ID="STD-Blackmore-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Bloomfield-2010">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Chiu-2009">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Cook-2005">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Cook-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Cook-2008-a">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Cook-2008-b">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Cook-2009b">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Dennis-2003">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Fern_x00e1_ndez-Alem_x00e1_n-2011">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Friedl--2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Friedl-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Gerdprasert-2010">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Grundman-2000">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Horiuchi-2009">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Kopp-2008">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Leong-2003">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Lu-2009">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Mattheos-2004">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-McMullan-2011">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-M_x00e4_kinen-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Nicholson-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Papa-1999">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Schittek-Janda-2005">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Smeekens-2011">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Spickard-2002">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Spickard-2004">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Tunuguntla-2008">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+</QUALITY_ITEM_DATA>
+</QUALITY_ITEM>
+<QUALITY_ITEM CORE_ITEM="YES" ID="QIT-02" LEVEL="STUDY" MODIFIED="2013-09-20 17:59:04 -0300" MODIFIED_BY="[Empty name]" NO="2">
+<NAME>Allocation concealment (selection bias)</NAME>
+<DESCRIPTION>
+<P>Selection bias (biased allocation to interventions) due to inadequate concealment of allocations prior to assignment</P>
+</DESCRIPTION>
+<QUALITY_ITEM_DATA>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Bell-2000">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY MODIFIED="2013-09-20 17:59:04 -0300" MODIFIED_BY="[Empty name]" RESULT="YES" STUDY_ID="STD-Blackmore-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Bloomfield-2010">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Chiu-2009">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Cook-2005">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Cook-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Cook-2008-a">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Cook-2008-b">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Cook-2009b">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Dennis-2003">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Fern_x00e1_ndez-Alem_x00e1_n-2011">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Friedl--2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Friedl-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Gerdprasert-2010">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Grundman-2000">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Horiuchi-2009">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Kopp-2008">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Leong-2003">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Lu-2009">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Mattheos-2004">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-McMullan-2011">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-M_x00e4_kinen-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Nicholson-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Papa-1999">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Schittek-Janda-2005">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Smeekens-2011">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Spickard-2002">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Spickard-2004">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Tunuguntla-2008">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+</QUALITY_ITEM_DATA>
+</QUALITY_ITEM>
+<QUALITY_ITEM CORE_ITEM="YES" ID="QIT-03" LEVEL="GROUP" MODIFIED="2013-09-20 17:59:07 -0300" MODIFIED_BY="[Empty name]" NO="3">
+<NAME>Blinding of participants and personnel (performance bias)</NAME>
+<DESCRIPTION>
+<P>Performance bias due to knowledge of the allocated interventions by participants and personnel during the study</P>
+</DESCRIPTION>
+<QUALITY_ITEM_DATA_ENTRY_GROUP ID="QIG-03.01" NO="1">
+<NAME>All outcomes</NAME>
+</QUALITY_ITEM_DATA_ENTRY_GROUP>
+<QUALITY_ITEM_DATA>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-03.01" MODIFIED="2013-09-20 14:48:22 -0300" MODIFIED_BY="[Empty name]" RESULT="NO" STUDY_ID="STD-Bell-2000">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-03.01" MODIFIED="2013-09-20 17:59:07 -0300" MODIFIED_BY="[Empty name]" RESULT="YES" STUDY_ID="STD-Blackmore-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-03.01" RESULT="UNKNOWN" STUDY_ID="STD-Bloomfield-2010">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-03.01" RESULT="UNKNOWN" STUDY_ID="STD-Chiu-2009">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-03.01" RESULT="UNKNOWN" STUDY_ID="STD-Cook-2005">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-03.01" RESULT="UNKNOWN" STUDY_ID="STD-Cook-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-03.01" RESULT="UNKNOWN" STUDY_ID="STD-Cook-2008-a">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-03.01" RESULT="UNKNOWN" STUDY_ID="STD-Cook-2008-b">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-03.01" RESULT="UNKNOWN" STUDY_ID="STD-Cook-2009b">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-03.01" RESULT="UNKNOWN" STUDY_ID="STD-Dennis-2003">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-03.01" RESULT="UNKNOWN" STUDY_ID="STD-Fern_x00e1_ndez-Alem_x00e1_n-2011">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-03.01" RESULT="UNKNOWN" STUDY_ID="STD-Friedl--2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-03.01" RESULT="UNKNOWN" STUDY_ID="STD-Friedl-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-03.01" RESULT="UNKNOWN" STUDY_ID="STD-Gerdprasert-2010">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-03.01" RESULT="UNKNOWN" STUDY_ID="STD-Grundman-2000">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-03.01" RESULT="UNKNOWN" STUDY_ID="STD-Horiuchi-2009">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-03.01" RESULT="UNKNOWN" STUDY_ID="STD-Kopp-2008">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-03.01" RESULT="UNKNOWN" STUDY_ID="STD-Leong-2003">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-03.01" RESULT="UNKNOWN" STUDY_ID="STD-Lu-2009">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-03.01" RESULT="UNKNOWN" STUDY_ID="STD-Mattheos-2004">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-03.01" RESULT="UNKNOWN" STUDY_ID="STD-McMullan-2011">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-03.01" RESULT="UNKNOWN" STUDY_ID="STD-M_x00e4_kinen-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-03.01" RESULT="UNKNOWN" STUDY_ID="STD-Nicholson-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-03.01" RESULT="UNKNOWN" STUDY_ID="STD-Papa-1999">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-03.01" RESULT="UNKNOWN" STUDY_ID="STD-Schittek-Janda-2005">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-03.01" RESULT="UNKNOWN" STUDY_ID="STD-Smeekens-2011">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-03.01" RESULT="UNKNOWN" STUDY_ID="STD-Spickard-2002">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-03.01" RESULT="UNKNOWN" STUDY_ID="STD-Spickard-2004">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-03.01" RESULT="UNKNOWN" STUDY_ID="STD-Tunuguntla-2008">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+</QUALITY_ITEM_DATA>
+</QUALITY_ITEM>
+<QUALITY_ITEM CORE_ITEM="YES" ID="QIT-04" LEVEL="GROUP" MODIFIED="2013-09-20 14:49:52 -0300" MODIFIED_BY="[Empty name]" NO="4">
+<NAME>Blinding of outcome assessment (detection bias)</NAME>
+<DESCRIPTION>
+<P>Detection bias due to knowledge of the allocated interventions by outcome assessors</P>
+</DESCRIPTION>
+<QUALITY_ITEM_DATA_ENTRY_GROUP ID="QIG-04.01" NO="1">
+<NAME>All outcomes</NAME>
+</QUALITY_ITEM_DATA_ENTRY_GROUP>
+<QUALITY_ITEM_DATA>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-04.01" MODIFIED="2013-09-20 14:49:52 -0300" MODIFIED_BY="[Empty name]" RESULT="YES" STUDY_ID="STD-Bell-2000">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-04.01" RESULT="UNKNOWN" STUDY_ID="STD-Blackmore-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-04.01" RESULT="UNKNOWN" STUDY_ID="STD-Bloomfield-2010">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-04.01" RESULT="UNKNOWN" STUDY_ID="STD-Chiu-2009">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-04.01" RESULT="UNKNOWN" STUDY_ID="STD-Cook-2005">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-04.01" RESULT="UNKNOWN" STUDY_ID="STD-Cook-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-04.01" RESULT="UNKNOWN" STUDY_ID="STD-Cook-2008-a">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-04.01" RESULT="UNKNOWN" STUDY_ID="STD-Cook-2008-b">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-04.01" RESULT="UNKNOWN" STUDY_ID="STD-Cook-2009b">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-04.01" RESULT="UNKNOWN" STUDY_ID="STD-Dennis-2003">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-04.01" RESULT="UNKNOWN" STUDY_ID="STD-Fern_x00e1_ndez-Alem_x00e1_n-2011">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-04.01" RESULT="UNKNOWN" STUDY_ID="STD-Friedl--2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-04.01" RESULT="UNKNOWN" STUDY_ID="STD-Friedl-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-04.01" RESULT="UNKNOWN" STUDY_ID="STD-Gerdprasert-2010">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-04.01" RESULT="UNKNOWN" STUDY_ID="STD-Grundman-2000">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-04.01" RESULT="UNKNOWN" STUDY_ID="STD-Horiuchi-2009">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-04.01" RESULT="UNKNOWN" STUDY_ID="STD-Kopp-2008">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-04.01" RESULT="UNKNOWN" STUDY_ID="STD-Leong-2003">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-04.01" RESULT="UNKNOWN" STUDY_ID="STD-Lu-2009">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-04.01" RESULT="UNKNOWN" STUDY_ID="STD-Mattheos-2004">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-04.01" RESULT="UNKNOWN" STUDY_ID="STD-McMullan-2011">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-04.01" RESULT="UNKNOWN" STUDY_ID="STD-M_x00e4_kinen-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-04.01" RESULT="UNKNOWN" STUDY_ID="STD-Nicholson-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-04.01" RESULT="UNKNOWN" STUDY_ID="STD-Papa-1999">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-04.01" RESULT="UNKNOWN" STUDY_ID="STD-Schittek-Janda-2005">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-04.01" RESULT="UNKNOWN" STUDY_ID="STD-Smeekens-2011">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-04.01" RESULT="UNKNOWN" STUDY_ID="STD-Spickard-2002">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-04.01" RESULT="UNKNOWN" STUDY_ID="STD-Spickard-2004">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-04.01" RESULT="UNKNOWN" STUDY_ID="STD-Tunuguntla-2008">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+</QUALITY_ITEM_DATA>
+</QUALITY_ITEM>
+<QUALITY_ITEM CORE_ITEM="YES" ID="QIT-05" LEVEL="GROUP" MODIFIED="2013-09-20 11:28:44 -0300" MODIFIED_BY="[Empty name]" NO="5">
+<NAME>Incomplete outcome data (attrition bias)</NAME>
+<DESCRIPTION>
+<P>Attrition bias due to amount, nature or handling of incomplete outcome data</P>
+</DESCRIPTION>
+<QUALITY_ITEM_DATA_ENTRY_GROUP ID="QIG-05.01" NO="1">
+<NAME>All outcomes</NAME>
+</QUALITY_ITEM_DATA_ENTRY_GROUP>
+<QUALITY_ITEM_DATA>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-05.01" RESULT="UNKNOWN" STUDY_ID="STD-Bell-2000">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-05.01" RESULT="UNKNOWN" STUDY_ID="STD-Blackmore-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-05.01" RESULT="UNKNOWN" STUDY_ID="STD-Bloomfield-2010">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-05.01" RESULT="UNKNOWN" STUDY_ID="STD-Chiu-2009">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-05.01" RESULT="UNKNOWN" STUDY_ID="STD-Cook-2005">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-05.01" RESULT="UNKNOWN" STUDY_ID="STD-Cook-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-05.01" RESULT="UNKNOWN" STUDY_ID="STD-Cook-2008-a">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-05.01" RESULT="UNKNOWN" STUDY_ID="STD-Cook-2008-b">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-05.01" RESULT="UNKNOWN" STUDY_ID="STD-Cook-2009b">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-05.01" RESULT="UNKNOWN" STUDY_ID="STD-Dennis-2003">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-05.01" RESULT="UNKNOWN" STUDY_ID="STD-Fern_x00e1_ndez-Alem_x00e1_n-2011">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-05.01" RESULT="UNKNOWN" STUDY_ID="STD-Friedl--2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-05.01" RESULT="UNKNOWN" STUDY_ID="STD-Friedl-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-05.01" RESULT="UNKNOWN" STUDY_ID="STD-Gerdprasert-2010">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-05.01" RESULT="UNKNOWN" STUDY_ID="STD-Grundman-2000">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-05.01" RESULT="UNKNOWN" STUDY_ID="STD-Horiuchi-2009">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-05.01" RESULT="UNKNOWN" STUDY_ID="STD-Kopp-2008">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-05.01" RESULT="UNKNOWN" STUDY_ID="STD-Leong-2003">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-05.01" RESULT="UNKNOWN" STUDY_ID="STD-Lu-2009">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-05.01" RESULT="UNKNOWN" STUDY_ID="STD-Mattheos-2004">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-05.01" RESULT="UNKNOWN" STUDY_ID="STD-McMullan-2011">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-05.01" RESULT="UNKNOWN" STUDY_ID="STD-M_x00e4_kinen-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-05.01" RESULT="UNKNOWN" STUDY_ID="STD-Nicholson-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-05.01" RESULT="UNKNOWN" STUDY_ID="STD-Papa-1999">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-05.01" RESULT="UNKNOWN" STUDY_ID="STD-Schittek-Janda-2005">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-05.01" RESULT="UNKNOWN" STUDY_ID="STD-Smeekens-2011">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-05.01" RESULT="UNKNOWN" STUDY_ID="STD-Spickard-2002">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-05.01" RESULT="UNKNOWN" STUDY_ID="STD-Spickard-2004">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY GROUP_ID="QIG-05.01" RESULT="UNKNOWN" STUDY_ID="STD-Tunuguntla-2008">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+</QUALITY_ITEM_DATA>
+</QUALITY_ITEM>
+<QUALITY_ITEM CORE_ITEM="YES" ID="QIT-06" LEVEL="STUDY" MODIFIED="2013-09-20 11:28:44 -0300" MODIFIED_BY="[Empty name]" NO="6">
+<NAME>Selective reporting (reporting bias)</NAME>
+<DESCRIPTION>
+<P>Reporting bias due to selective outcome reporting</P>
+</DESCRIPTION>
+<QUALITY_ITEM_DATA>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Bell-2000">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Blackmore-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Bloomfield-2010">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Chiu-2009">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Cook-2005">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Cook-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Cook-2008-a">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Cook-2008-b">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Cook-2009b">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Dennis-2003">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Fern_x00e1_ndez-Alem_x00e1_n-2011">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Friedl--2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Friedl-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Gerdprasert-2010">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Grundman-2000">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Horiuchi-2009">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Kopp-2008">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Leong-2003">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Lu-2009">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Mattheos-2004">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-McMullan-2011">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-M_x00e4_kinen-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Nicholson-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Papa-1999">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Schittek-Janda-2005">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Smeekens-2011">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Spickard-2002">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Spickard-2004">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Tunuguntla-2008">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+</QUALITY_ITEM_DATA>
+</QUALITY_ITEM>
+<QUALITY_ITEM CORE_ITEM="YES" ID="QIT-07" LEVEL="STUDY" MODIFIED="2013-09-20 11:28:44 -0300" MODIFIED_BY="[Empty name]" NO="7">
+<NAME>Other bias</NAME>
+<DESCRIPTION>
+<P>Bias due to problems not covered elsewhere in the table</P>
+</DESCRIPTION>
+<QUALITY_ITEM_DATA>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Bell-2000">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Blackmore-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Bloomfield-2010">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Chiu-2009">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Cook-2005">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Cook-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Cook-2008-a">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Cook-2008-b">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Cook-2009b">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Dennis-2003">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Fern_x00e1_ndez-Alem_x00e1_n-2011">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Friedl--2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Friedl-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Gerdprasert-2010">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Grundman-2000">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Horiuchi-2009">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Kopp-2008">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Leong-2003">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Lu-2009">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Mattheos-2004">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-McMullan-2011">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-M_x00e4_kinen-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Nicholson-2006">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Papa-1999">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Schittek-Janda-2005">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Smeekens-2011">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Spickard-2002">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Spickard-2004">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+<QUALITY_ITEM_DATA_ENTRY RESULT="UNKNOWN" STUDY_ID="STD-Tunuguntla-2008">
+<DESCRIPTION/>
+</QUALITY_ITEM_DATA_ENTRY>
+</QUALITY_ITEM_DATA>
+</QUALITY_ITEM>
+</QUALITY_ITEMS>
+<SOF_TABLES/>
+<ADDITIONAL_TABLES MODIFIED="2013-09-20 12:06:43 -0300" MODIFIED_BY="[Empty name]"/>
+<ANALYSES_AND_DATA CALCULATED_DATA="YES" MODIFIED="2013-09-29 18:54:43 -0300" MODIFIED_BY="[Empty name]">
+<COMPARISON ID="CMP-001" MODIFIED="2013-09-29 18:54:43 -0300" MODIFIED_BY="[Empty name]" NO="1">
+<NAME>Time</NAME>
+<CONT_OUTCOME CHI2="0.0" CI_END="0.0" CI_START="0.0" CI_STUDY="95" CI_TOTAL="95" DF="0" EFFECT_MEASURE="MD" EFFECT_SIZE="0.0" ESTIMABLE="NO" I2="0.0" I2_Q="0.0" ID="CMP-001.01" MODIFIED="2013-09-29 18:54:43 -0300" MODIFIED_BY="[Empty name]" NO="1" P_CHI2="0.0" P_Q="0.0" P_Z="0.0" Q="0.0" RANDOM="NO" SCALE="59.93022084577825" SORT_BY="STUDY" STUDIES="20" SUBGROUPS="NO" SUBGROUP_TEST="YES" TAU2="0.0" TOTALS="YES" TOTAL_1="1209" TOTAL_2="1157" UNITS="" WEIGHT="0.0" Z="0.0">
+<NAME>Time Learning</NAME>
+<GROUP_LABEL_1>Experimental</GROUP_LABEL_1>
+<GROUP_LABEL_2>Control</GROUP_LABEL_2>
+<GRAPH_LABEL_1>Favours [experimental]</GRAPH_LABEL_1>
+<GRAPH_LABEL_2>Favours [control]</GRAPH_LABEL_2>
+<CONT_DATA CI_END="0.0" CI_START="0.0" EFFECT_SIZE="0.0" ESTIMABLE="NO" MEAN_1="38.5" MEAN_2="27.0" MODIFIED="2013-09-29 16:24:01 -0300" MODIFIED_BY="[Empty name]" ORDER="2" SD_1="0.0" SD_2="0.0" SE="0.0" STUDY_ID="STD-Bell-2000" TOTAL_1="72" TOTAL_2="82" WEIGHT="0.0"/>
+<CONT_DATA CI_END="0.0" CI_START="0.0" EFFECT_SIZE="0.0" ESTIMABLE="NO" MEAN_1="300.0" MEAN_2="240.0" MODIFIED="2013-09-29 17:14:13 -0300" MODIFIED_BY="[Empty name]" ORDER="12" SD_1="0.0" SD_2="0.0" SE="0.0" STUDY_ID="STD-Blackmore-2006" TOTAL_1="134" TOTAL_2="125" WEIGHT="0.0"/>
+<CONT_DATA CI_END="0.0" CI_START="0.0" EFFECT_SIZE="0.0" ESTIMABLE="NO" MEAN_1="47.0" MEAN_2="59.0" MODIFIED="2013-09-29 17:03:24 -0300" MODIFIED_BY="[Empty name]" ORDER="10" SD_1="0.0" SD_2="0.0" SE="0.0" STUDY_ID="STD-Cook-2005" TOTAL_1="97" TOTAL_2="12" WEIGHT="0.0"/>
+<CONT_DATA CI_END="0.0" CI_START="0.0" EFFECT_SIZE="0.0" ESTIMABLE="NO" MEAN_1="60.4" MEAN_2="44.3" MODIFIED="2013-09-29 17:25:02 -0300" MODIFIED_BY="[Empty name]" ORDER="13" SD_1="0.0" SD_2="0.0" SE="0.0" STUDY_ID="STD-Cook-2006" TOTAL_1="62" TOTAL_2="59" WEIGHT="0.0"/>
+<CONT_DATA CI_END="0.0" CI_START="0.0" EFFECT_SIZE="0.0" ESTIMABLE="NO" MEAN_1="29.6" MEAN_2="35.6" MODIFIED="2013-09-29 18:31:38 -0300" MODIFIED_BY="[Empty name]" ORDER="17" SD_1="0.0" SD_2="0.0" SE="0.0" STUDY_ID="STD-Cook-2008-a" TOTAL_1="63" TOTAL_2="61" WEIGHT="0.0"/>
+<CONT_DATA CI_END="0.0" CI_START="0.0" EFFECT_SIZE="0.0" ESTIMABLE="NO" MEAN_1="45.9" MEAN_2="42.5" MODIFIED="2013-09-29 18:41:25 -0300" MODIFIED_BY="[Empty name]" ORDER="18" SD_1="0.0" SD_2="0.0" SE="0.0" STUDY_ID="STD-Cook-2008-b" TOTAL_1="62" TOTAL_2="62" WEIGHT="0.0"/>
+<CONT_DATA CI_END="0.0" CI_START="0.0" EFFECT_SIZE="0.0" ESTIMABLE="NO" MEAN_1="43.7" MEAN_2="43.2" MODIFIED="2013-09-29 18:54:43 -0300" MODIFIED_BY="[Empty name]" ORDER="21" SD_1="0.0" SD_2="0.0" SE="0.0" STUDY_ID="STD-Cook-2009b" TOTAL_1="63" TOTAL_2="60" WEIGHT="0.0"/>
+<CONT_DATA CI_END="0.0" CI_START="0.0" EFFECT_SIZE="0.0" ESTIMABLE="NO" MEAN_1="152.0" MEAN_2="205.0" MODIFIED="2013-09-29 16:35:43 -0300" MODIFIED_BY="[Empty name]" ORDER="6" SD_1="0.0" SD_2="0.0" SE="0.0" STUDY_ID="STD-Dennis-2003" TOTAL_1="17" TOTAL_2="17" WEIGHT="0.0"/>
+<CONT_DATA CI_END="0.0" CI_START="0.0" EFFECT_SIZE="0.0" ESTIMABLE="NO" MEAN_1="109.0" MEAN_2="105.0" MODIFIED="2013-09-29 18:13:21 -0300" MODIFIED_BY="[Empty name]" ORDER="15" SD_1="0.0" SD_2="0.0" SE="0.0" STUDY_ID="STD-Friedl--2006" TOTAL_1="69" TOTAL_2="57" WEIGHT="0.0"/>
+<CONT_DATA CI_END="0.0" CI_START="0.0" EFFECT_SIZE="0.0" ESTIMABLE="NO" MEAN_1="105.0" MEAN_2="122.0" MODIFIED="2013-09-29 18:09:37 -0300" MODIFIED_BY="[Empty name]" ORDER="14" SD_1="0.0" SD_2="0.0" SE="0.0" STUDY_ID="STD-Friedl-2006" TOTAL_1="69" TOTAL_2="57" WEIGHT="0.0"/>
+<CONT_DATA CI_END="0.0" CI_START="0.0" EFFECT_SIZE="0.0" ESTIMABLE="NO" MEAN_1="15.9" MEAN_2="13.4" MODIFIED="2013-09-29 16:25:58 -0300" MODIFIED_BY="[Empty name]" ORDER="4" SD_1="0.0" SD_2="0.0" SE="0.0" STUDY_ID="STD-Grundman-2000" TOTAL_1="60" TOTAL_2="61" WEIGHT="0.0"/>
+<CONT_DATA CI_END="0.0" CI_START="0.0" EFFECT_SIZE="0.0" ESTIMABLE="NO" MEAN_1="44.6" MEAN_2="45.4" MODIFIED="2013-09-29 18:44:58 -0300" MODIFIED_BY="[Empty name]" ORDER="19" SD_1="0.0" SD_2="0.0" SE="0.0" STUDY_ID="STD-Kopp-2008" TOTAL_1="52" TOTAL_2="145" WEIGHT="0.0"/>
+<CONT_DATA CI_END="0.0" CI_START="0.0" EFFECT_SIZE="0.0" ESTIMABLE="NO" MEAN_1="76.5" MEAN_2="77.0" MODIFIED="2013-09-29 16:44:51 -0300" MODIFIED_BY="[Empty name]" ORDER="7" SD_1="0.0" SD_2="0.0" SE="0.0" STUDY_ID="STD-Leong-2003" TOTAL_1="177" TOTAL_2="148" WEIGHT="0.0"/>
+<CONT_DATA CI_END="0.0" CI_START="0.0" EFFECT_SIZE="0.0" ESTIMABLE="NO" MEAN_1="215.0" MEAN_2="122.0" MODIFIED="2013-09-29 16:57:11 -0300" MODIFIED_BY="[Empty name]" ORDER="8" SD_1="0.0" SD_2="0.0" SE="0.0" STUDY_ID="STD-Mattheos-2004" TOTAL_1="24" TOTAL_2="24" WEIGHT="0.0"/>
+<CONT_DATA CI_END="0.0" CI_START="0.0" EFFECT_SIZE="0.0" ESTIMABLE="NO" MEAN_1="21.0" MEAN_2="16.0" MODIFIED="2013-09-29 18:25:14 -0300" MODIFIED_BY="[Empty name]" ORDER="16" SD_1="0.0" SD_2="0.0" SE="0.0" STUDY_ID="STD-Nicholson-2006" TOTAL_1="31" TOTAL_2="30" WEIGHT="0.0"/>
+<CONT_DATA CI_END="0.0" CI_START="0.0" EFFECT_SIZE="0.0" ESTIMABLE="NO" MEAN_1="32.0" MEAN_2="41.0" MODIFIED="2013-09-29 16:19:16 -0300" MODIFIED_BY="[Empty name]" ORDER="3" SD_1="0.0" SD_2="0.0" SE="0.0" STUDY_ID="STD-Papa-1999" TOTAL_1="56" TOTAL_2="52" WEIGHT="0.0"/>
+<CONT_DATA CI_END="0.0" CI_START="0.0" EFFECT_SIZE="0.0" ESTIMABLE="NO" MEAN_1="15.0" MEAN_2="9.0" MODIFIED="2013-09-29 17:08:29 -0300" MODIFIED_BY="[Empty name]" ORDER="11" SD_1="0.0" SD_2="0.0" SE="0.0" STUDY_ID="STD-Schittek-Janda-2005" TOTAL_1="15" TOTAL_2="13" WEIGHT="0.0"/>
+<CONT_DATA CI_END="0.0" CI_START="0.0" EFFECT_SIZE="0.0" ESTIMABLE="NO" MEAN_1="61.0" MEAN_2="113.0" MODIFIED="2013-09-29 16:28:47 -0300" MODIFIED_BY="[Empty name]" ORDER="5" SD_1="0.0" SD_2="0.0" SE="0.0" STUDY_ID="STD-Spickard-2002" TOTAL_1="47" TOTAL_2="48" WEIGHT="0.0"/>
+<CONT_DATA CI_END="0.0" CI_START="0.0" EFFECT_SIZE="0.0" ESTIMABLE="NO" MEAN_1="75.0" MEAN_2="55.0" MODIFIED="2013-09-29 16:59:58 -0300" MODIFIED_BY="[Empty name]" ORDER="9" SD_1="0.0" SD_2="0.0" SE="0.0" STUDY_ID="STD-Spickard-2004" TOTAL_1="16" TOTAL_2="17" WEIGHT="0.0"/>
+<CONT_DATA CI_END="0.0" CI_START="0.0" EFFECT_SIZE="0.0" ESTIMABLE="NO" MEAN_1="44.0" MEAN_2="39.0" MODIFIED="2013-09-29 18:52:00 -0300" MODIFIED_BY="[Empty name]" ORDER="20" SD_1="0.0" SD_2="0.0" SE="0.0" STUDY_ID="STD-Tunuguntla-2008" TOTAL_1="23" TOTAL_2="27" WEIGHT="0.0"/>
+</CONT_OUTCOME>
+</COMPARISON>
+</ANALYSES_AND_DATA>
+<FIGURES/>
+<FEEDBACK/>
+<APPENDICES/>
+<EXTENSIONS/>
+</COCHRANE_REVIEW>
