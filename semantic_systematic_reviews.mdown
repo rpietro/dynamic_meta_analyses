@@ -1,12 +1,15 @@
 # Semantic dynamic systematic reviews of online learning applied to healthcare professionals: A reproducible research project
 
 Taís Moreira  
+Lucas Oliveira  
 Jacson Barros  
 Jose Eduardo Santana  
 Joao Vissoci  
-Lucas Oliveira
-Uhana Seifert Guimaraes Suga
+Uhana Seifert Guimaraes Suga  
 Ricardo Pietrobon  
+
+
+http://rctbank.ucsf.edu/home/cplus/full-list
 
 <!-- https://docs.google.com/spreadsheet/ccc?key=0AuL3GiehWhDMdDVTRmtmV185ajMxbEZxd2plTllCNEE&usp=drive_web#gid=0 -->
 
