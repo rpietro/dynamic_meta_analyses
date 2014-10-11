@@ -1,0 +1,175 @@
+
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix sdmx: <http://purl.org/linked-data/sdmx#> .
+@prefix sdmx-concept: <http://purl.org/linked-data/sdmx/2009/concept#> .
+@prefix sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#> .
+@prefix sdmx-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+@prefix sdmx-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix eg: <http://example.org/dynamic-meta-analysis#> .
+
+####################################################################################
+
+##### Dimensions definition  #####
+
+eg:pubid  a rdf:Property, qb:DimensionProperty;
+    rdfs:label "Pubmed ID"@en;
+    rdfs:range xsd:integer .
+
+####################################################################################
+
+##### Measures definition  #####
+
+eg:sample-size-intervention a rdf:Property,
+qb:MeasureProperty;
+    rdfs:label "Number of subjects in the intervention group"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:integer .
+
+eg:time-learning-avg-intervention a rdf:Property,
+qb:MeasureProperty;
+    rdfs:label "Time spent with learning in the intervention group"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:integer .
+
+eg:time-learning-sd-intervention a rdf:Property,
+qb:MeasureProperty;
+    rdfs:label "Standard deviation of time spent with learning in the intervention group"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:integer .
+
+eg:sample-size-control a rdf:Property,
+qb:MeasureProperty;
+    rdfs:label "Number of subjects in the control group"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:integer .
+
+eg:time-learning-avg-control a rdf:Property,
+qb:MeasureProperty;
+    rdfs:label "Time spent with learning in the control group"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:integer .
+
+eg:time-learning-sd-control a rdf:Property,
+qb:MeasureProperty;
+    rdfs:label "Standard deviation of time spent with learning in the control group"@en;
+    rdfs:subPropertyOf sdmx-measure:obsValue;
+    rdfs:range xsd:integer .
+
+####################################################################################
+
+##### Data structure definition #####
+
+eg:dsd-dynamic-meta-analysis a qb:DataStructureDefinition;
+    rdfs:comment "Data structure for dynamic meta analysis"@en;
+    qb:component 
+        [ qb:dimension eg:pubid; ],
+        [ qb:measure eg:sample-size-intervention; ],
+        [ qb:measure eg:time-learning-avg-intervention; ],
+        [ qb:measure eg:time-learning-sd-intervention; ],
+        [ qb:measure eg:sample-size-control; ],
+        [ qb:measure eg:time-learning-avg-control; ],
+        [ qb:measure eg:time-learning-sd-control; ] .
+
+eg:dataset-dynamic-meta-analysis a qb:DataSet;
+    rdfs:label "Quantitative dynamic meta analysis data"@en;
+    dct:title "Quantitative dynamic meta analysis data"@en;
+    rdfs:comment "Dataset for the dynamic meta analysis quantitative study"@en;
+    dct:description "Dataset for the dynamic meta analysis quantitative study"@en;
+    dct:issued "2014-10-01"^^xsd:date;
+    dct:modified "2014-10-01"^^xsd:date;
+    dct:subject "(CHANGE) Sujeito que esta sendo tratado neste DataSet";
+    dct:publisher eg:organization;
+    dct:license <http://creativecommons.org/licenses/by-sa/4.0/>;
+    qb:structure eg:dsd-dynamic-meta-analysis; .
+
+eg:organization a org:Organization, foaf:Agent;
+    rdfs:label "(CHANGE) Organization responsible" .
+
+####################################################################################
+
+##### Observations #####
+
+eg:10536581 a qb:Observation;
+    qb:dataSet eg:dataset-dynamic-meta-analysis ;
+    eg:pubid 10536581 ;
+    dct:subject [
+        rdf:value 10536581;
+        rdfs:label "The effects of immediate online feedback upon diagnostic performance"@en;
+        rdf:type dct:PUBMED;
+    ];
+    dct:title "The effects of immediate online feedback upon diagnostic performance"@en;
+    dct:date "1999-01-01"^^xsd:date;
+    dct:creator "Frank J. Papa";
+    dct:coverage [
+        rdf:value "name=Fort Worth, United States; east=-97.32085; north=32.72541";
+        rdfs:label "Fort Worth, United States"@en;
+        geo:lat 32.72541;
+        geo:long -97.32085;
+        geo:alt 199;
+        rdf:type dct:Point;
+    ];
+    eg:sample-size-intervention 52 ;
+    eg:time-learning-avg-intervention 41 ;
+    eg:time-learning-sd-intervention "NA" ;
+    eg:sample-size-control 56 ;
+    eg:time-learning-avg-control 32 ;
+    eg:time-learning-sd-control "NA" ; .
+
+eg:10858176 a qb:Observation;
+    qb:dataSet eg:dataset-dynamic-meta-analysis ;
+    eg:pubid 10858176 ;
+    dct:subject [
+        rdf:value 10858176;
+        rdfs:label "Self-Study from Web-Based and Printed Guideline Materials: A Randomized, Controlled Trial among Resident Physicians"@en;
+        rdf:type dct:PUBMED; 
+    ];
+    dct:title "Self-Study from Web-Based and Printed Guideline Materials: A Randomized, Controlled Trial among Resident Physicians"@en;
+    dct:date "2000-01-01"^^xsd:date;
+    dct:creator "Douglas S. Bell";
+    dct:coverage [
+        rdf:value "name=Los Angeles, United States; east=-118.24368; north=34.05223";
+        rdfs:label "Los Angeles, United States"@en; 
+        geo:lat 34.05223; 
+        geo:long -118.24368; 
+        geo:alt 89; 
+        rdf:type dct:Point;
+    ];
+    eg:sample-size-intervention 83 ;
+    eg:time-learning-avg-intervention 27 ;
+    eg:time-learning-sd-intervention 1.44 ;
+    eg:sample-size-control 79 ;
+    eg:time-learning-avg-control 38.5 ;
+    eg:time-learning-sd-control 0.56 ; .
+
+eg:12133144 a qb:Observation;
+    qb:dataSet eg:dataset-dynamic-meta-analysis ;
+    eg:pubid 12133144 ;
+    dct:subject [
+        rdf:value 12133144;
+        rdfs:label "A controlled trial of an interactive, web-based virtual reality program for teaching physical diagnosis skills to medical students"@en;
+        rdf:type dct:PUBMED; 
+    ];
+    dct:title "A controlled trial of an interactive, web-based virtual reality program for teaching physical diagnosis skills to medical students"@en;
+    dct:date "2002-01-01"^^xsd:date;
+    dct:creator "Anderson Spikard III";
+    dct:coverage [
+        rdf:value "name=Nashville, United States; east=-86.78444; north=36.16589";
+        rdfs:label "Nashville, United States"@en;
+        geo:lat 36.16589;
+        geo:long -86.78444;
+        geo:alt 170;
+        rdf:type dct:Point; 
+    ];
+    eg:sample-size-intervention 47 ;
+    eg:time-learning-avg-intervention 61 ;
+    eg:time-learning-sd-intervention 1.43 ;
+    eg:sample-size-control 48 ;
+    eg:time-learning-avg-control 113 ;
+    eg:time-learning-sd-control 1.45 ; .
