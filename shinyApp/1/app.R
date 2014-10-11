@@ -1,9 +1,18 @@
 ## app.R
 
+# install.packages("rJava") # if not present already
+# install.packages("devtools") # if not present already
+# library(devtools)
+# install_github("rrdf", "egonw", subdir="rrdflibs")
+# install_github("rrdf", "egonw", subdir="rrdf")
+# install.packages('data.table', repos='http://cran.us.r-project.org')
+# install.packages('meta', repos='http://cran.us.r-project.org')
+# install.packages('googleVis', repos='http://cran.us.r-project.org')
 library(rrdf)
 library(data.table)
 require("meta")
 library(googleVis)
+suppressPackageStartupMessages(library(googleVis))
 
 model <- load.rdf("dynamicMetaAnalysis.ttl","TURTLE")
 
