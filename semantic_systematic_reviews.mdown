@@ -3,13 +3,13 @@
 Taís Moreira  
 Lucas Oliveira  
 Jacson Barros  
-Jose Eduardo Santana  
 Joao Vissoci  
 Uhana Seifert Guimaraes Suga  
 Ricardo Pietrobon  
+Gustavo Medeiros
 
 
-http://rctbank.ucsf.edu/home/cplus/full-list
+<!-- http://rctbank.ucsf.edu/home/cplus/full-list -->
 
 <!-- https://docs.google.com/spreadsheet/ccc?key=0AuL3GiehWhDMdDVTRmtmV185ajMxbEZxd2plTllCNEE&usp=drive_web#gid=0 -->
 
@@ -60,6 +60,8 @@ map distribution trial geolocation -->
 <!-- Tais, please add here a description of the systematic review we will use, how many rcts it has, and links to the rcts. also add a meta-analysis of your choice focused on online learning applied to healthcare professionals - would choose something where there are around 15 RCTs included, just so that we have a bit of room to stratify the results later on -->
 
 
+<!-- Lucas, can we have the data as a sparql endpoint on the USP server? -->
+
 The extracted data are provided as a CSV (comma-separated values) under FigShare <!-- add link once available --> as well as a [Google spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AuL3GiehWhDMdDVTRmtmV185ajMxbEZxd2plTllCNEE#gid=0). Finally, as will be detailed below, the data are made available in a directly queriable format through our SPARQL endpoint <!-- link and define sparql -->, from which a direct analysis can also be performed.
 
  that can be downloaded as a .CSV (comma-separated values) file.
@@ -78,13 +80,8 @@ Table 1. Informal use case
 
 ### Ontology structure
 
-<!-- 
-Tais, will need you to go over two things:
+<!-- Lucas, please add the overall structure for the ontology -->
 
-1. which fields available in most RCTs would be valuable for qualitatively characterizing the overall systematic review? for example, population characteristics would be interesting, but can you break that down into something more specific? how much detail you might want to provide is something that you will have to decide based on how important it is as well as how often the field might be available across RCTs
-2. please check with Joao which fields eh would like you to extract from each RCT *in the meta-analysis* so that he can run the meta-analysis later. this should be relatively simple. then think about which variables in the RCTs for the meta-analysis you might want to stratify the results by. i can give you specific examples once you have chosen a meta-analysis
-
- -->
 
 Our ontology engineering process used concepts from the [UPON](https://docs.google.com/file/d/0B4Ke-17mTW1_eWZpeUNRa2pUVVE/edit) and [Agile](http://agilemanifesto.org/) methodology in that we used a use-case rather than realist approach and worked in iterative cycles focused on the aims of our stakeholders. Briefly, we used the following steps:
 
@@ -103,7 +100,7 @@ Our ontology engineering process used concepts from the [UPON](https://docs.goog
 
 ### RDF conversion
 RDF (Resource Description Framework)
-<!-- Jacson or Jose Eduardo, how do we convert from csv to RDF. can we also make it available in json? csv will be available from the sheet, which might be a simple interface where other people might want to collaborate data -->
+<!-- Jacson how do we convert from csv to RDF. can we also make it available in json? csv will be available from the sheet, which might be a simple interface where other people might want to collaborate data -->
 
 ### Linking data to the systematic review or data analysis
 
