@@ -1,11 +1,11 @@
 # Semantic dynamic systematic reviews of online learning applied to healthcare professionals: A reproducible research project
 
 Taís de Campos Moreira  
-Lucas Oliveira  Teixeira
+Lucas Oliveira Teixeira
 Jacson Barros  
 Joao Ricardo Nickenig Vissoci  
-Uhana Seifert Guimaraes Suga 
-Lucas Lentini Herling de Oliveira 
+Uhana Seifert Guimaraes Suga
+Lucas Lentini H. de Oliveira 
 Ricardo Pietrobon  
 Gustavo Medeiros
 
