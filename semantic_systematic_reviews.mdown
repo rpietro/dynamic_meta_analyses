@@ -58,6 +58,7 @@ map distribution trial geolocation -->
 
 ### Demonstration systematic review and meta-analysis articles
 
+We used for this study two systematic reviews [Liu et al., 2013](https://docs.google.com/file/d/0B-L3GiehWhDMUEhhNHJIX0E5anc/edit) and [Cook et al., 2010](https://docs.google.com/file/d/0B-L3GiehWhDMSXhCLWpzcnpOUEU/edit). The systematic review by Liu et al., 2013 included 9 studies: [Bloomﬁeld et al. 2010](https://docs.google.com/file/d/0B-L3GiehWhDMVW5aM2pKYlAySnc/edit), [Chiu et al. 2009](https://docs.google.com/file/d/0B-L3GiehWhDMZHlWQkFGMkN6TmM/edit),[Fernández Alemán et al. 2011](https://docs.google.com/file/d/0B-L3GiehWhDMa1BQXzkyUmw0SDg/edit), [Gerdprasert et al. 2010](https://docs.google.com/file/d/0B-L3GiehWhDMMEhoMk53c0JhdGs/edit), [Horiuchi et al. 2009] (https://docs.google.com/file/d/0B-L3GiehWhDMQ2NrcTJEbXN5MjA/edit), [Lu et al. 2009](https://docs.google.com/file/d/0B-L3GiehWhDMV18yMHppbGV1SFU/edit), [Mäkinen et al. 2006](https://docs.google.com/file/d/0B-L3GiehWhDMR2IwRG1GVzd6aEE/edit), [McMullan et al. 2011](https://docs.google.com/file/d/0B-L3GiehWhDMNmp6YmdCdnk0U28/edit), [Smeekens et al. 2011](https://docs.google.com/file/d/0B-L3GiehWhDMM1M3OXpBX2VVbkU/edit). 
 <!-- Tais, please add here a description of the systematic review we will use, how many rcts it has, and links to the rcts. also add a meta-analysis of your choice focused on online learning applied to healthcare professionals - would choose something where there are around 15 RCTs included, just so that we have a bit of room to stratify the results later on -->
 
 
