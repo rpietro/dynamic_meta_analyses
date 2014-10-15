@@ -1,7 +1,7 @@
 # Semantic dynamic systematic reviews of online learning applied to healthcare professionals: A reproducible research project
 
 Taís de Campos Moreira  
-Lucas Oliveira Teixeira
+Lucas de Oliveira Teixeira
 Jacson Barros  
 Joao Ricardo Nickenig Vissoci  
 Uhana Seifert Guimaraes Suga   
@@ -61,7 +61,12 @@ map distribution trial geolocation -->
 <!-- Tais, please add here a description of the systematic review we will use, how many rcts it has, and links to the rcts. also add a meta-analysis of your choice focused on online learning applied to healthcare professionals - would choose something where there are around 15 RCTs included, just so that we have a bit of room to stratify the results later on -->
 
 
-<!-- Lucas, can we have the data as a sparql endpoint on the USP server? -->
+<!-- 
+  Shiny App -> http://ppv1.hc.fm.usp.br/dynamic-meta-analysis/
+  SPARQL Endpoint -> http://ppv1.hc.fm.usp.br/dynamic-meta-analysis/sparql/
+
+  Lucas, TO DO -> Quando a representacao estiver finalizada, deixar a ontologia disponível e registrar um namespace no purl.org (por enquanto estou usando namespace example.org)
+ -->
 
 The extracted data are provided as a CSV (comma-separated values) under FigShare <!-- add link once available --> as well as a [Google spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AuL3GiehWhDMdDVTRmtmV185ajMxbEZxd2plTllCNEE#gid=0). Finally, as will be detailed below, the data are made available in a directly queriable format through our SPARQL endpoint <!-- link and define sparql -->, from which a direct analysis can also be performed.
 
@@ -81,7 +86,12 @@ Table 1. Informal use case
 
 ### Ontology structure
 
-<!-- Lucas, please add the overall structure for the ontology -->
+<!-- 
+There are two vocabularies that we can model the data: RDF Data Cube (www.w3.org/TR/vocab-data-cube/) and DCAT (http://www.w3.org/TR/vocab-dcat/).
+I'm delineating pros and cons of them. http://semanticweb.com/tag/data-cube-vocabulary
+
+For now we are using RDF Data Cube.
+-->
 
 
 Our ontology engineering process used concepts from the [UPON](https://docs.google.com/file/d/0B4Ke-17mTW1_eWZpeUNRa2pUVVE/edit) and [Agile](http://agilemanifesto.org/) methodology in that we used a use-case rather than realist approach and worked in iterative cycles focused on the aims of our stakeholders. Briefly, we used the following steps:
@@ -114,7 +124,10 @@ RDF (Resource Description Framework)
 
 All analyses were conducted using the R language (@R2013). Specifically, we accessed the data through the previously created SPARQL endpoint using the rrdf package(@rrdf2013) package for rdf manipulation. The data were then converted into a dataframe, which is the equivalent of a flat table. Subsequently, we used the [meta](http://cran.r-project.org/web/packages/meta/index.html) package for meta-analysis and forest plot and the [QCA](http://journal.r-project.org/archive/2013-1/thiem-dusa.pdf) and [Venn diagram](http://cran.r-project.org/web/packages/VennDiagram/VennDiagram.pdf) package for qualitative analysis.
 
-<!-- [shiny](https://github.com/rstudio/shiny/) for web application deployment -->
+<!--
+  [shiny](https://github.com/rstudio/shiny/) for web application deployment
+  Shiny App -> http://ppv1.hc.fm.usp.br/dynamic-meta-analysis/
+ -->
 
 ### Reproducible research methodology
 
