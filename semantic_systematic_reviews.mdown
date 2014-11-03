@@ -62,18 +62,7 @@ We used for this study two systematic reviews [Du et al., 2013](https://docs.goo
 The systematic review by Cook et al., 2010 included 20 studies: [Papa et al., 1999](https://docs.google.com/file/d/0B-L3GiehWhDMRjBMUldjVVRrZTQ/edit), [Bell et al., 2000](https://docs.google.com/file/d/0B-L3GiehWhDMZFpFMHJFWkhheUk/edit), [Grundman et a., 2000](https://docs.google.com/file/d/0B-L3GiehWhDMY3Z6UWZsenlhblk/edit), [Spickard  et al., 2002](https://docs.google.com/file/d/0B-L3GiehWhDMVm9KOXU3azFHR0U/edit), [Dennis,  2003](https://docs.google.com/file/d/0B-L3GiehWhDMamlEaFZnYi05b3M/edit), [Leong  et al., 2003](https://docs.google.com/file/d/0B-L3GiehWhDMRkVKaHplaURnYlU/edit), [Mattheos et al., 2004](https://docs.google.com/file/d/0B-L3GiehWhDMczRzWWtEdnVyajQ/edit), [Spickard  et al., 2004](https://docs.google.com/file/d/0B-L3GiehWhDMSW5aaWc3dXNKQ2s/edit), [Cook et al., 2005](https://docs.google.com/file/d/0B-L3GiehWhDMcDhfcy1wOXZvS0U/edit), [Janda  et al., 2005](https://docs.google.com/file/d/0B-L3GiehWhDMelZQTndwSXB0Mlk/edit), [Blackmore et al., 2006](https://docs.google.com/file/d/0B-L3GiehWhDMOENlazZuNXg3c1k/edit), [Cook et al., 2006](https://docs.google.com/file/d/0B-L3GiehWhDMcy1XYkl1NGY2bDA/edit), [Friedl  et al., 2006](https://docs.google.com/file/d/0B-L3GiehWhDMcmhESWJYaXc5dkk/edit), [Friedl et al., 2006](https://docs.google.com/file/d/0B-L3GiehWhDMZ0d1VUs5aUZMdm8/edit), [Nicholson  et al., 2006](https://docs.google.com/file/d/0B-L3GiehWhDMQWc0MlUwRF9KeFE/edit), [Cook  et al., 2008a](https://docs.google.com/file/d/0B-L3GiehWhDMc21CaHJiWmtudXM/edit), [Cook  et al., 2008b](https://docs.google.com/file/d/0B-L3GiehWhDMWGl6YWZEaHpJQkE/edit), [Kopp et al., 2008](https://docs.google.com/file/d/0B-L3GiehWhDMWkJBNmVCVzZTTGc/edit), [Tunuguntla  et al., 2008](https://docs.google.com/file/d/0B-L3GiehWhDMcXVHRm5FT2pOOHM/edit), [Cook et al., 2009b](https://docs.google.com/file/d/0B-L3GiehWhDMNmJxQk5mZW5JR0U/edit).  
 <!-- Tais, please add here a description of the systematic review we will use, how many rcts it has, and links to the rcts. also add a meta-analysis of your choice focused on online learning applied to healthcare professionals - would choose something where there are around 15 RCTs included, just so that we have a bit of room to stratify the results later on -->
 
-
-<!-- 
-  Shiny App -> http://ppv1.hc.fm.usp.br/dynamic-meta-analysis/
-  SPARQL Endpoint -> http://ppv1.hc.fm.usp.br/dynamic-meta-analysis/sparql/
-
-  Lucas, TO DO -> Quando a representacao estiver finalizada, deixar a ontologia disponível e registrar um namespace no purl.org (por enquanto estou usando namespace example.org)
- -->
-
-The extracted data are provided as a CSV (comma-separated values) under FigShare <!-- add link once available --> as well as a [Google spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AuL3GiehWhDMdDVTRmtmV185ajMxbEZxd2plTllCNEE#gid=0). Finally, as will be detailed below, the data are made available in a directly queriable format through our SPARQL endpoint <!-- link and define sparql -->, from which a direct analysis can also be performed.
-
- that can be downloaded as a .CSV (comma-separated values) file.
-
+The extracted data are provided as a CSV (comma-separated values) under FigShare <!-- add link once available --> as well as a [Google spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AuL3GiehWhDMdDVTRmtmV185ajMxbEZxd2plTllCNEE#gid=0). Finally, as will be detailed below, the data are made available in a directly queriable format through our [SPARQL endpoint](http://ppv1.hc.fm.usp.br/dynamic-meta-analysis/sparql/), from which a direct analysis can also be performed.
 
 ### Use case
 Informal use case](http://www.agilemodeling.com/artifacts/systemUseCase.htm)
@@ -88,28 +77,29 @@ Table 1. Informal use case
 
 ### Ontology structure
 
-<!-- 
-There are two vocabularies that we can model the data: RDF Data Cube (www.w3.org/TR/vocab-data-cube/) and DCAT (http://www.w3.org/TR/vocab-dcat/).
-I'm delineating pros and cons of them. http://semanticweb.com/tag/data-cube-vocabulary
-
-For now we are using RDF Data Cube.
--->
-
-
-Our ontology engineering process used concepts from the [UPON](https://docs.google.com/file/d/0B4Ke-17mTW1_eWZpeUNRa2pUVVE/edit) and [Agile](http://agilemanifesto.org/) methodology in that we used a use-case rather than realist approach and worked in iterative cycles focused on the aims of our stakeholders. Briefly, we used the following steps:
+Our ontology engineering process is highly based on [UPON](https://docs.google.com/file/d/0B4Ke-17mTW1_eWZpeUNRa2pUVVE/edit) and [Agile](http://agilemanifesto.org/) methodologies. Thus, our approach is use-case driven divided in incremental cycles. Each cycle focus in a specific use-case that relies on a stakeholder need. Briefly, we used the following steps:
 
 1. Defined a simple use case, specifically focusing on the end-product our users were expected to get from the application
 1. Outlined main sections from each component articles in the Cook meta-analysis, including both qualitative and quantitative 
 2. Outlined a first version of the ontology and instantiated it with data
 3. Conducted a meta-analysis using the instances by directly importing the RDF into the R language
-<!-- r citation --> and [meta package]()
+<!-- r citation --> and [metafor package]()
 1. Released a qualitative table outlining the main characteristics of each study
 1. Presented the result to an educator and went back to the beginning of the cycle to address any issues
 
+We develop a simple ontology to represent the core terms of meta-analysis in clinical trials, called [Clinical Trials Meta-Analysis Ontology]() (CTMA)<!--Lucas, create purl and describe here -->. Many terms used in CTMA are reused from [Dublin Core](). Then, we combined CTMA with [RDF Data Cube]() to enrich the semantic representation of the statistical data. The CTMA is represented in Figure X. 
+
+<!--Lucas, create figure of CTMA structure,
+  Ricardo, is it necessary to explain every class and property?
+-->
+
+The following example is a study represented using CTMA and RDF Data Cube:
+
+<!--Lucas, create figure of one study representation-->
+
+Finally, CTMA is licensed under [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) and it is available under our [SPARQL Endpoint](http://ppv1.hc.fm.usp.br/dynamic-meta-analysis/sparql/).
 
 <!-- each subpopulation dyad (proportion of the number of successes over the total number of people) is specific for dyad each result dyad(specific outcome and specific intervention arm). For example, assume that a trial is comparing two arms (control vs. educational intervention A) for three outcomes (course completion, satisfied with course, and would recommend course to others). the following points have to be captured for this trial: rate of course completion for control (total number of students who completed course vs total number of students), rate of course completion for intervention, rate of satisfaction for control, ... -->
-
-<!-- Lucas - classes, properties, individuos, licensa apache 2, sparql endpoint -->
 
 ### Linking data to the systematic review or data analysis
 
