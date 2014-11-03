@@ -208,7 +208,7 @@ cito reason for citation for citing and cited articles
 
 ### References
 
-@article{bell2000self,
+### @article{bell2000self,
   title={Self-study from web-based and printed guideline materialsA randomized, controlled trial among resident physicians},
   author={Bell, Douglas S and Fonarow, Gregg C and Hays, Ron D and Mangione, Carol M},
   journal={Annals of Internal Medicine},
@@ -218,7 +218,7 @@ cito reason for citation for citing and cited articles
   year={2000},
   publisher={Am Coll Physicians}
 }
-@article{blackmore2006role,
+### @article{blackmore2006role,
   title={The role of the eTutor—evaluating tutor input in a virtual learning community for psychotherapists and psychologists across Europe},
   author={Blackmore, C and Tantam, D and Van Deurzen, E},
   journal={International Journal of Psychotherapy},
@@ -226,4 +226,14 @@ cito reason for citation for citing and cited articles
   number={2},
   pages={35--46},
   year={2006}
+}
+### @article{cook2005web,
+  title={Web-based learning in residents' continuity clinics: a randomized, controlled trial},
+  author={Cook, David A and Dupras, Denise M and Thompson, Warren G and Pankratz, V Shane},
+  journal={Academic Medicine},
+  volume={80},
+  number={1},
+  pages={90--97},
+  year={2005},
+  publisher={LWW}
 }
