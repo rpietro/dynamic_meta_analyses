@@ -227,6 +227,16 @@ cito reason for citation for citing and cited articles
   pages={35--46},
   year={2006}
 }
+ @article{bloomfield2010effect,
+  title={The effect of computer-assisted learning versus conventional teaching methods on the acquisition and retention of handwashing theory and skills in pre-qualification nursing students: a randomised controlled trial},
+  author={Bloomfield, Jacqueline and Roberts, Julia and While, Alison},
+  journal={International Journal of nursing studies},
+  volume={47},
+  number={3},
+  pages={287--294},
+  year={2010},
+  publisher={Elsevier}
+}
 ### @article{cook2005web,
   title={Web-based learning in residents' continuity clinics: a randomized, controlled trial},
   author={Cook, David A and Dupras, Denise M and Thompson, Warren G and Pankratz, V Shane},
