@@ -65,15 +65,17 @@ The systematic review by Cook et al., 2010 included 20 studies: [Papa et al., 19
 The extracted data are provided as a CSV (comma-separated values) under FigShare <!-- add link once available --> as well as a [Google spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AuL3GiehWhDMdDVTRmtmV185ajMxbEZxd2plTllCNEE#gid=0). Finally, as will be detailed below, the data are made available in a directly queriable format through our [SPARQL endpoint](http://ppv1.hc.fm.usp.br/dynamic-meta-analysis/sparql/), from which a direct analysis can also be performed.
 
 ### Use case
-Informal use case](http://www.agilemodeling.com/artifacts/systemUseCase.htm)
 
-Table 1. Informal use case
+The first step in [Unified Process for ONtology (UPON)]() is defining an informal use case to support the ontology modeling. The informal use case develop for this study is presented below:
+<!-- [Informal use case](http://www.agilemodeling.com/artifacts/systemUseCase.htm) -->
 
-* User go to the Web site and either browses or searches across systematic reviews and  RCTs
-* For each systematic review, the user can stratify results based on a set of fields from an existing ontology that are present within that systematic review
+<!-- Table 1. Informal use case -->
+
+* User go to the Web application and either browses or searches across systematic reviews and RCTs
+* For each systematic review or study, the user can stratify results based on a set of fields from the ontology developed
 * Results are presented in both a qualitative as well as, when available, a quantitative perspective
 * For qualitative results a table and Venn diagram showing overlapping characteristics are displayed
-* For quantitative results, OR with 95% CI and a forest plot are displayed
+* For quantitative results, OR with 95% CI, forest, funnel and radial plot are displayed
 
 ### Ontology structure
 
@@ -119,16 +121,11 @@ http://citationstyles.org/
 
 ### Statistical analysis
 
-All analyses were conducted using the R language (@R2013). Specifically, we accessed the data through the previously created SPARQL endpoint using the rrdf package(@rrdf2013) package for rdf manipulation. The data were then converted into a dataframe, which is the equivalent of a flat table. Subsequently, we used the [meta](http://cran.r-project.org/web/packages/meta/index.html) package for meta-analysis and forest plot and the [QCA](http://journal.r-project.org/archive/2013-1/thiem-dusa.pdf) and [Venn diagram](http://cran.r-project.org/web/packages/VennDiagram/VennDiagram.pdf) package for qualitative analysis.
-
-<!--
-  [shiny](https://github.com/rstudio/shiny/) for web application deployment
-  Shiny App -> http://ppv1.hc.fm.usp.br/dynamic-meta-analysis/
- -->
+All analyses were conducted using the R language (@R2013). Specifically, we accessed the data through the previously created SPARQL endpoint using the rrdf package(@rrdf2013) package for rdf manipulation. The data were then converted into a dataframe, which is the equivalent of a flat table. Subsequently, we used the [metafor]() package for meta-analysis, forest, funnel and radial plot and the [QCA](http://journal.r-project.org/archive/2013-1/thiem-dusa.pdf) and [Venn diagram](http://cran.r-project.org/web/packages/VennDiagram/VennDiagram.pdf) package for qualitative analysis.
 
 ### Web application
 
-architecture Shiny 
+The Web application were develop using [Shiny framework]() and it is available in our [server](http://ppv1.hc.fm.usp.br/dynamic-meta-analysis/). Shiny is a web application framework for R.
 
 
 
@@ -166,6 +163,9 @@ Figure 2: Forest plot
 Figure 3: Funnel plot
 ![](https://lh5.googleusercontent.com/-7O-SeJ9wx_Q/UgA5AzutMRI/AAAAAAAA0WY/-1BjN8IGbjg/w850-h604-no/Screen+Shot+2013-08-05+at+7.43.44+PM.png)
 
+Figure 4: Radial plot
+![]()
+
 ### Data availability
 
 csv google sheets
@@ -187,6 +187,11 @@ figshare
 ### Result 1
 
 comparison with [OCRe](https://code.google.com/p/ontology-of-clinical-research/)
+
+The Ontology of Clinical Research (OCRe) is rather complex and, apparently, not supported anymore. The Clinical Case Meta-Analyses Ontology (CTMA) develop is a simple ontology to represent data for clinical trials meta-analysis. <!-- Explicit the differenced about OCRe and CTMA -->
+
+Furthermore, we have found that there is a lack of solutions to represent clinical trials data as linked data.  
+
 ### Result 2
 ### Result 3
 ### Result 4
