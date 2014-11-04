@@ -1,14 +1,13 @@
 # Semantic dynamic systematic reviews of online learning applied to healthcare professionals: A reproducible research project
 
 
-Taís Moreira  
-Lucas Oliveira  
+Taís de Campos Moreira  
+Lucas de Oliveira Teixeira    
 Jacson Barros  
-Joao Vissoci  
-Uhana Seifert Guimaraes Suga  
+Joao Ricardo Nickenig Vissoci  
+Uhana Seifert Guimaraes Suga   
+Lucas Lentini H. de Oliveira    
 Ricardo Pietrobon  
-Gustavo Medeiros
-
 
 <!-- http://rctbank.ucsf.edu/home/cplus/full-list -->
 
@@ -30,18 +29,20 @@ publicity
 
 
 ## Abstract
-<!-- will write at the end --> 
+Although systematic reviews and meta-analysis in education are supposed to capture the best available evidence in the literature, the judgment regarding which articles are rated as either "the best evidence" or the most applicable to different context is left entirely to the author. We present a semantic approach to this problem where the data from individual randomized trials are encoded using a computational ontology. This data set is then processed using a statistical language and presented as a Web application that allows peers and the general public to choose the criteria that they judge to be more appropriate in aggregating study results. Given the dynamic nature of this approach, we expect that time to inclusion of trials in meta-analyses might be reduced, also allowing for personalization of results to contexts that are specific to individual readers.
+
 
 ## Introduction
-Online education is a major driving mechanism in the lifelong learning path of healthcare professionals. Despite a large number of systematic reviews and meta-analyses focusing on multiple aspects of online learning applied to healthcare professionals, the speed at which online learning technologies evolve largely defies our ability to create and maintain our reviews up to date. In contrast with this need, the field still largely relies on publications modes that can hardly address the practitioners' needs.
 
-Traditionally, education practice has been driven by more opinion than evidence. It was only recently that the number of randomized experiments and the overall quality in the reporting of other study designs has allowed for the execution of systematic reviews and meta-analyses. In education applied to healthcare in specific, recent efforts by researchers such as David Cook and <!-- add others --> have recently led to information that can now guide education policy in ways that were previously not possible. A recent example is <!-- example policy guided by systematic reviews in healthcare education -->
+Online education is a major driving mechanism in the lifelong learning path of healthcare professionals <!-- ref -->. Despite a large number of systematic reviews and meta-analyses focusing on multiple aspects of online learning applied to healthcare professionals, the speed at which online learning technologies evolve largely defies our ability to create and maintain our reviews up to date <!-- ref -->. In contrast with this need, the field still largely relies on publications modes that can hardly address the practitioners' needs <!-- ref -->.
+
+Traditionally, education practice has been driven by more opinion than evidence <!-- ref -->. It was only recently that the number of randomized experiments and the overall quality in the reporting of other study designs has allowed for the execution of systematic reviews and meta-analyses <!-- ref -->. In education applied to healthcare in specific, recent efforts by researchers such as David Cook and <!-- add others --> have recently led to information that can now guide education policy in ways that were previously not possible <!-- ref -->. A recent example is <!-- example policy guided by systematic reviews in healthcare education -->
 
 <!-- overview of traditional systematic reviews and meta-analyses in online learning applied to healthcare education - work by david cook -->
 
-Despite of a significant increase in the number and quality of systematic reviews in education applied to healthcare, the field is not without problems. First, the time lag between the completion of studies and their inclusion in systematic reviews is still very large. If an additional years are added in order to these systematic reviews to be finally translated into practice guidelines and put into educational practice, we are likely looking at somewhere around 10 years between knowing that something works and then providing society with the benefit of that knowledge. Second, although meta-analysis are conducted with a potentially reproducible methodology, their underlying assumption can and should be put into question. For example, it has been demonstrated that the exact same set of articles in a meta-analysis can lead to fairly different conclusions depending on which articles are included based on a wide range of quality scales (juni1999hazards). However, in its current format, systematic reviews do not allow researchers and policy makers to attempt alternative assumptions, presenting instead a monolythic, falsely objective view of the literature. 
+Despite of a significant increase in the number and quality of systematic reviews in education applied to healthcare <!-- ref -->, the field is not without problems. First, the time lag between the completion of studies and their inclusion in systematic reviews is still very large <!-- ref -->. If an additional five years are added in order to these systematic reviews to be finally translated into practice guidelines <!-- ref --> and put into educational practice, we are likely looking at somewhere around 10 years between knowing that something works and then providing society with the benefit of that knowledge. Second, although meta-analysis are conducted with the intent of being reproducible by peers, this assumption can and should be put into question. For example, it has been demonstrated that the exact same set of articles in a meta-analysis can lead to fairly different conclusions depending on which articles are included based on a wide range of quality scales (juni1999hazards). However, in its current format, systematic reviews do not allow researchers, policy makers or any others to attempt alternative assumptions, presenting instead a monolythic, falsely objective view of the literature. 
 
-As an alternative to the problems previously outlined, in the past few years semantic technologies now allow for databases to be dynamically created and distributed. <!-- ref book semantic web allemang --> Specifically, the [Linked Open Data movement](http://linkeddata.org/) allows for research articles to not only be published with a number of data points on each article that greatly supersedes the traditional PubMed abstracts <!-- pubmed -->, but also to bring in information about these articles that were previously not available. A typical example is the potential to map individual articles to the geographic locations where the studies were conducted, therefore assisting readers in evaluating whether their results might or not be relevant to them as a function of their similarity with the local population where these results might be eventually applied in educational practice.
+As an alternative to the problems previously outlined, in the past few years semantic technologies now allow for databases to be dynamically created and distributed. (allemang2011semantic) Specifically, the [Linked Open Data](http://linkeddata.org/) movement allows for research articles to not only be published with a number of data points on each article that greatly supersedes the traditional [PubMed abstracts](http://www.ncbi.nlm.nih.gov/pubmed), but also to bring in information about these articles that were previously not available. A typical example is the potential to map individual articles to the geographic location where each study was conducted, therefore assisting readers in evaluating whether their results might or not be relevant to them. 
 
 In light of the current issues with the literature, the objective of this article is to demonstrate a semantic, dynamic framework for systematic reviews and meta-analyses in online learning applied to healthcare education, where results can be dynamically displayed and stratified.
 
@@ -58,63 +59,76 @@ map distribution trial geolocation -->
 
 ### Demonstration systematic review and meta-analysis articles
 
+We used for this study two systematic reviews [Du et al., 2013](https://docs.google.com/file/d/0B-L3GiehWhDMUEhhNHJIX0E5anc/edit) and [Cook et al., 2010](https://docs.google.com/file/d/0B-L3GiehWhDMSXhCLWpzcnpOUEU/edit). The systematic review by Du et al., 2013 included 9 studies: [Bloomﬁeld et al. 2010](https://docs.google.com/file/d/0B-L3GiehWhDMVW5aM2pKYlAySnc/edit), [Chiu et al. 2009](https://docs.google.com/file/d/0B-L3GiehWhDMZHlWQkFGMkN6TmM/edit),[Fernández Alemán et al. 2011](https://docs.google.com/file/d/0B-L3GiehWhDMa1BQXzkyUmw0SDg/edit), [Gerdprasert et al. 2010](https://docs.google.com/file/d/0B-L3GiehWhDMMEhoMk53c0JhdGs/edit), [Horiuchi et al. 2009] (https://docs.google.com/file/d/0B-L3GiehWhDMQ2NrcTJEbXN5MjA/edit), [Lu et al. 2009](https://docs.google.com/file/d/0B-L3GiehWhDMV18yMHppbGV1SFU/edit), [Mäkinen et al. 2006](https://docs.google.com/file/d/0B-L3GiehWhDMR2IwRG1GVzd6aEE/edit), [McMullan et al. 2011](https://docs.google.com/file/d/0B-L3GiehWhDMNmp6YmdCdnk0U28/edit), [Smeekens et al. 2011](https://docs.google.com/file/d/0B-L3GiehWhDMM1M3OXpBX2VVbkU/edit).
+The systematic review by Cook et al., 2010 included 20 studies: [Papa et al., 1999](https://docs.google.com/file/d/0B-L3GiehWhDMRjBMUldjVVRrZTQ/edit), [Bell et al., 2000](https://docs.google.com/file/d/0B-L3GiehWhDMZFpFMHJFWkhheUk/edit), [Grundman et a., 2000](https://docs.google.com/file/d/0B-L3GiehWhDMY3Z6UWZsenlhblk/edit), [Spickard  et al., 2002](https://docs.google.com/file/d/0B-L3GiehWhDMVm9KOXU3azFHR0U/edit), [Dennis,  2003](https://docs.google.com/file/d/0B-L3GiehWhDMamlEaFZnYi05b3M/edit), [Leong  et al., 2003](https://docs.google.com/file/d/0B-L3GiehWhDMRkVKaHplaURnYlU/edit), [Mattheos et al., 2004](https://docs.google.com/file/d/0B-L3GiehWhDMczRzWWtEdnVyajQ/edit), [Spickard  et al., 2004](https://docs.google.com/file/d/0B-L3GiehWhDMSW5aaWc3dXNKQ2s/edit), [Cook et al., 2005](https://docs.google.com/file/d/0B-L3GiehWhDMcDhfcy1wOXZvS0U/edit), [Janda  et al., 2005](https://docs.google.com/file/d/0B-L3GiehWhDMelZQTndwSXB0Mlk/edit), [Blackmore et al., 2006](https://docs.google.com/file/d/0B-L3GiehWhDMOENlazZuNXg3c1k/edit), [Cook et al., 2006](https://docs.google.com/file/d/0B-L3GiehWhDMcy1XYkl1NGY2bDA/edit), [Friedl  et al., 2006](https://docs.google.com/file/d/0B-L3GiehWhDMcmhESWJYaXc5dkk/edit), [Friedl et al., 2006](https://docs.google.com/file/d/0B-L3GiehWhDMZ0d1VUs5aUZMdm8/edit), [Nicholson  et al., 2006](https://docs.google.com/file/d/0B-L3GiehWhDMQWc0MlUwRF9KeFE/edit), [Cook  et al., 2008a](https://docs.google.com/file/d/0B-L3GiehWhDMc21CaHJiWmtudXM/edit), [Cook  et al., 2008b](https://docs.google.com/file/d/0B-L3GiehWhDMWGl6YWZEaHpJQkE/edit), [Kopp et al., 2008](https://docs.google.com/file/d/0B-L3GiehWhDMWkJBNmVCVzZTTGc/edit), [Tunuguntla  et al., 2008](https://docs.google.com/file/d/0B-L3GiehWhDMcXVHRm5FT2pOOHM/edit), [Cook et al., 2009b](https://docs.google.com/file/d/0B-L3GiehWhDMNmJxQk5mZW5JR0U/edit).  
 <!-- Tais, please add here a description of the systematic review we will use, how many rcts it has, and links to the rcts. also add a meta-analysis of your choice focused on online learning applied to healthcare professionals - would choose something where there are around 15 RCTs included, just so that we have a bit of room to stratify the results later on -->
 
-
-<!-- Lucas, can we have the data as a sparql endpoint on the USP server? -->
-
-The extracted data are provided as a CSV (comma-separated values) under FigShare <!-- add link once available --> as well as a [Google spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AuL3GiehWhDMdDVTRmtmV185ajMxbEZxd2plTllCNEE#gid=0). Finally, as will be detailed below, the data are made available in a directly queriable format through our SPARQL endpoint <!-- link and define sparql -->, from which a direct analysis can also be performed.
-
- that can be downloaded as a .CSV (comma-separated values) file.
-
+The extracted data are provided as a CSV (comma-separated values) under FigShare <!-- add link once available --> as well as a [Google spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0AuL3GiehWhDMdDVTRmtmV185ajMxbEZxd2plTllCNEE#gid=0). Finally, as will be detailed below, the data are made available in a directly queriable format through our [SPARQL endpoint](http://ppv1.hc.fm.usp.br/dynamic-meta-analysis/sparql/), from which a direct analysis can also be performed.
 
 ### Use case
-Informal use case](http://www.agilemodeling.com/artifacts/systemUseCase.htm)
 
-Table 1. Informal use case
+The first step in [Unified Process for ONtology (UPON)]() is defining an informal use case to support the ontology modeling. The informal use case develop for this study is presented below:
+<!-- [Informal use case](http://www.agilemodeling.com/artifacts/systemUseCase.htm) -->
 
-* User go to the Web site and either browses or searches across systematic reviews and  RCTs
-* For each systematic review, the user can stratify results based on a set of fields from an existing ontology that are present within that systematic review
+<!-- Table 1. Informal use case -->
+
+* User go to the Web application and either browses or searches across systematic reviews and RCTs
+* For each systematic review or study, the user can stratify results based on a set of fields from the ontology developed
 * Results are presented in both a qualitative as well as, when available, a quantitative perspective
 * For qualitative results a table and Venn diagram showing overlapping characteristics are displayed
-* For quantitative results, OR with 95% CI and a forest plot are displayed
+* For quantitative results, OR with 95% CI, forest, funnel and radial plot are displayed
 
 ### Ontology structure
 
-<!-- Lucas, please add the overall structure for the ontology -->
-
-
-Our ontology engineering process used concepts from the [UPON](https://docs.google.com/file/d/0B4Ke-17mTW1_eWZpeUNRa2pUVVE/edit) and [Agile](http://agilemanifesto.org/) methodology in that we used a use-case rather than realist approach and worked in iterative cycles focused on the aims of our stakeholders. Briefly, we used the following steps:
+Our ontology engineering process is highly based on [UPON](https://docs.google.com/file/d/0B4Ke-17mTW1_eWZpeUNRa2pUVVE/edit) and [Agile](http://agilemanifesto.org/) methodologies. Thus, our approach is use-case driven divided in incremental cycles. Each cycle focus in a specific use-case that relies on a stakeholder need. Briefly, we used the following steps:
 
 1. Defined a simple use case, specifically focusing on the end-product our users were expected to get from the application
 1. Outlined main sections from each component articles in the Cook meta-analysis, including both qualitative and quantitative 
 2. Outlined a first version of the ontology and instantiated it with data
 3. Conducted a meta-analysis using the instances by directly importing the RDF into the R language
-<!-- r citation --> and [meta package]()
+<!-- r citation --> and [metafor package]()
 1. Released a qualitative table outlining the main characteristics of each study
 1. Presented the result to an educator and went back to the beginning of the cycle to address any issues
 
+We develop a simple ontology to represent the core terms of meta-analysis in clinical trials, called [Clinical Trials Meta-Analysis Ontology]() (CTMA)<!--Lucas, create purl and describe here -->. Many terms used in CTMA are reused from [Dublin Core](). Then, we combined CTMA with [RDF Data Cube]() to enrich the semantic representation of the statistical data. The CTMA is represented in Figure X. 
+
+<!--Lucas, create figure of CTMA structure,
+  Ricardo, is it necessary to explain every class and property?
+-->
+
+The following example is a study represented using CTMA and RDF Data Cube:
+
+<!--Lucas, create figure of one study representation-->
+
+Finally, CTMA is licensed under [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) and it is available under our [SPARQL Endpoint](http://ppv1.hc.fm.usp.br/dynamic-meta-analysis/sparql/).
 
 <!-- each subpopulation dyad (proportion of the number of successes over the total number of people) is specific for dyad each result dyad(specific outcome and specific intervention arm). For example, assume that a trial is comparing two arms (control vs. educational intervention A) for three outcomes (course completion, satisfied with course, and would recommend course to others). the following points have to be captured for this trial: rate of course completion for control (total number of students who completed course vs total number of students), rate of course completion for intervention, rate of satisfaction for control, ... -->
-
-
-
-### RDF conversion
-RDF (Resource Description Framework)
-<!-- Jacson how do we convert from csv to RDF. can we also make it available in json? csv will be available from the sheet, which might be a simple interface where other people might want to collaborate data -->
 
 ### Linking data to the systematic review or data analysis
 
 [CiTO, the Citation Typing Ontology](http://speroni.web.cs.unibo.it/cgi-bin/lode/req.py?req=http:/purl.org/spar/cito)
+
+http://www.carlboettiger.info/
+
+https://github.com/cboettig/knitcitations
+
+http://citationstyles.org/
+
 <!-- Jacson, cito is included in knitcitations and only requires the DOI - do you know whether DOI is included in the pubmed lod? a connection with cito could lead in another paper toward a facilitated search for additional rcts if we connect it to the pubmed API to search for related articles. could also do some hacking of google scholar in order to get citing and cited articles. see http://goo.gl/wvQEdG for an example. all of this is not for now, this will be part of the discussion section as future development -->
 
 <!-- connection to linkedct through pmid -->
 
+
+
 ### Statistical analysis
 
-All analyses were conducted using the R language (@R2013). Specifically, we accessed the data through the previously created SPARQL endpoint using the rrdf package(@rrdf2013) package for rdf manipulation. The data were then converted into a dataframe, which is the equivalent of a flat table. Subsequently, we used the [meta](http://cran.r-project.org/web/packages/meta/index.html) package for meta-analysis and forest plot and the [QCA](http://journal.r-project.org/archive/2013-1/thiem-dusa.pdf) and [Venn diagram](http://cran.r-project.org/web/packages/VennDiagram/VennDiagram.pdf) package for qualitative analysis.
+All analyses were conducted using the R language (@R2013). Specifically, we accessed the data through the previously created SPARQL endpoint using the rrdf package(@rrdf2013) package for rdf manipulation. The data were then converted into a dataframe, which is the equivalent of a flat table. Subsequently, we used the [metafor]() package for meta-analysis, forest, funnel and radial plot and the [QCA](http://journal.r-project.org/archive/2013-1/thiem-dusa.pdf) and [Venn diagram](http://cran.r-project.org/web/packages/VennDiagram/VennDiagram.pdf) package for qualitative analysis.
 
-<!-- [shiny](https://github.com/rstudio/shiny/) for web application deployment -->
+### Web application
+
+The Web application were develop using [Shiny framework]() and it is available in our [server](http://ppv1.hc.fm.usp.br/dynamic-meta-analysis/). Shiny is a web application framework for R.
+
+
 
 ### Reproducible research methodology
 
@@ -125,12 +139,16 @@ store R, it's packages, and d2rq  -->
 
 ## Results
 
-### Ontology structure
+### Ontology description
+
+sparql endpoint
+sparql scripts pra acessar endpoint - exemplos de queries
+
+
 
 ### Application functionality
 
-#### Search
-
+videos, url site
 
 #### Qualitative results
 
@@ -146,9 +164,12 @@ Figure 2: Forest plot
 Figure 3: Funnel plot
 ![](https://lh5.googleusercontent.com/-7O-SeJ9wx_Q/UgA5AzutMRI/AAAAAAAA0WY/-1BjN8IGbjg/w850-h604-no/Screen+Shot+2013-08-05+at+7.43.44+PM.png)
 
+Figure 4: Radial plot
+![]()
+
 ### Data availability
 
-
+csv google sheets
 
 ### Reproducible research methodology
 github
@@ -167,6 +188,11 @@ figshare
 ### Result 1
 
 comparison with [OCRe](https://code.google.com/p/ontology-of-clinical-research/)
+
+The Ontology of Clinical Research (OCRe) is rather complex and, apparently, not supported anymore. The Clinical Case Meta-Analyses Ontology (CTMA) develop is a simple ontology to represent data for clinical trials meta-analysis. <!-- Explicit the differenced about OCRe and CTMA -->
+
+Furthermore, we have found that there is a lack of solutions to represent clinical trials data as linked data.  
+
 ### Result 2
 ### Result 3
 ### Result 4
@@ -175,4 +201,302 @@ comparison with [OCRe](https://code.google.com/p/ontology-of-clinical-research/)
 ### Future
 compliance consort included into ontology
 cito reason for citation for citing and cited articles
+
+### References
+
+### @article{bell2000self,
+  title={Self-study from web-based and printed guideline materialsA randomized, controlled trial among resident physicians},
+  author={Bell, Douglas S and Fonarow, Gregg C and Hays, Ron D and Mangione, Carol M},
+  journal={Annals of Internal Medicine},
+  volume={132},
+  number={12},
+  pages={938--946},
+  year={2000},
+  publisher={Am Coll Physicians}
+}
+### @article{blackmore2006role,
+  title={The role of the eTutor—evaluating tutor input in a virtual learning community for psychotherapists and psychologists across Europe},
+  author={Blackmore, C and Tantam, D and Van Deurzen, E},
+  journal={International Journal of Psychotherapy},
+  volume={10},
+  number={2},
+  pages={35--46},
+  year={2006}
+}
+ ### @article{bloomfield2010effect,
+  title={The effect of computer-assisted learning versus conventional teaching methods on the acquisition and retention of handwashing theory and skills in pre-qualification nursing students: a randomised controlled trial},
+  author={Bloomfield, Jacqueline and Roberts, Julia and While, Alison},
+  journal={International Journal of nursing studies},
+  volume={47},
+  number={3},
+  pages={287--294},
+  year={2010},
+  publisher={Elsevier}
+}
+### @article{chiu2009effectiveness,
+  title={The effectiveness of interactive computer assisted instruction compared to videotaped instruction for teaching nurses to assess neurological function of stroke patients: A randomized controlled trial},
+  author={Chiu, Su-Chen and Cheng, Kuei-Yueh and Sun, Tzu-Kuan and Chang, Ku-Chou and Tan, Teng-Yeow and Lin, Tsu-Kung and Huang, Yu-Ching and Chang, Jui-Kun and Yeh, Shu-Hui},
+  journal={International journal of nursing studies},
+  volume={46},
+  number={12},
+  pages={1548--1556},
+  year={2009},
+  publisher={Elsevier}
+}
+### @article{cook2005web,
+  title={Web-based learning in residents' continuity clinics: a randomized, controlled trial},
+  author={Cook, David A and Dupras, Denise M and Thompson, Warren G and Pankratz, V Shane},
+  journal={Academic Medicine},
+  volume={80},
+  number={1},
+  pages={90--97},
+  year={2005},
+  publisher={LWW}
+}
+### @article{cook2006impact,
+  title={Impact of self-assessment questions and learning styles in Web-based learning: a randomized, controlled, crossover trial},
+  author={Cook, David A and Thompson, Warren G and Thomas, Kris G and Thomas, Matthew R and Pankratz, V Shane},
+  journal={Academic Medicine},
+  volume={81},
+  number={3},
+  pages={231--238},
+  year={2006},
+  publisher={LWW}
+}
+### @article{cook2008adapting,
+  title={Adapting web-based instruction to residents’ knowledge improves learning efficiency},
+  author={Cook, David A and Beckman, Thomas J and Thomas, Kris G and Thompson, Warren G},
+  journal={Journal of general internal medicine},
+  volume={23},
+  number={7},
+  pages={985--990},
+  year={2008},
+  publisher={Springer}
+}
+### @article{cook2008introducing,
+  title={Introducing resident doctors to complexity in ambulatory medicine},
+  author={Cook, David A and Beckman, Thomas J and Thomas, Kris G and Thompson, Warren G},
+  journal={Medical education},
+  volume={42},
+  number={8},
+  pages={838--848},
+  year={2008},
+  publisher={Wiley Online Library}
+}
+### @article{cook2009lack,
+  title={Lack of interaction between sensing--intuitive learning styles and problem-first versus information-first instruction: A randomized crossover trial},
+  author={Cook, David A and Thompson, Warren G and Thomas, Kris G and Thomas, Matthew R},
+  journal={Advances in Health Sciences Education},
+  volume={14},
+  number={1},
+  pages={79--90},
+  year={2009},
+  publisher={Springer}
+}
+### @article{cook2010time,
+  title={Time and learning efficiency in Internet-based learning: a systematic review and meta-analysis},
+  author={Cook, David A and Levinson, Anthony J and Garside, Sarah},
+  journal={Advances in health sciences education},
+  volume={15},
+  number={5},
+  pages={755--770},
+  year={2010},
+  publisher={Springer}
+}
+### @article{dennis2003problem,
+  title={Problem-based learning in online vs. face-to-face environments.},
+  author={Dennis, Jancis K},
+  journal={Education for health (Abingdon, England)},
+  volume={16},
+  number={2},
+  pages={198--209},
+  year={2003}
+}
+### @article{du2013web,
+  title={Web-based distance learning for nurse education: a systematic review},
+  author={Du, S and Liu, Z and Liu, S and Yin, H and Xu, G and Zhang, H and Wang, A},
+  journal={International nursing review},
+  volume={60},
+  number={2},
+  pages={167--177},
+  year={2013},
+  publisher={Wiley Online Library}
+}
+### @article{fernandez2011effects,
+  title={Effects of competitive computer-assisted learning versus conventional teaching methods on the acquisition and retention of knowledge in medical surgical nursing students},
+  author={Fern{\'a}ndez Alem{\'a}n, Jos{\'e} Luis and Carrillo de Gea, Juan Manuel and Rodr{\'\i}guez Mond{\'e}jar, Juan Jos{\'e}},
+  journal={Nurse education today},
+  volume={31},
+  number={8},
+  pages={866--871},
+  year={2011},
+  publisher={Elsevier}
+}
+### @article{friedl2006multimedia,
+  title={Multimedia-driven teaching significantly improves students’ performance when compared with a print medium},
+  author={Friedl, Reinhard and H{\"o}ppler, Helmut and Ecard, Karl and Scholz, Wilfried and Hannekum, Andreas and {\"O}chsner, Wolfgang and Stracke, Sylvia},
+  journal={The Annals of thoracic surgery},
+  volume={81},
+  number={5},
+  pages={1760--1766},
+  year={2006},
+  publisher={Elsevier}
+}
+### @article{friedl2006comparative,
+  title={Comparative evaluation of multimedia driven, interactive, and case-based teaching in heart surgery},
+  author={Friedl, Reinhard and H{\"o}ppler, Helmut and Ecard, Karl and Scholz, Wilfried and Hannekum, Andreas and Oechsner, Wolfgang and Stracke, Sylvia},
+  journal={The Annals of thoracic surgery},
+  volume={82},
+  number={5},
+  pages={1790--1795},
+  year={2006},
+  publisher={Elsevier}
+}
+### @article{gerdprasert2010development,
+  title={Development of a web-based learning medium on mechanism of labour for nursing students},
+  author={Gerdprasert, Sailom and Pruksacheva, Tassanee and Panijpan, Bhinyo and Ruenwongsa, Pintip},
+  journal={Nurse Education Today},
+  volume={30},
+  number={5},
+  pages={464--469},
+  year={2010},
+  publisher={Elsevier}
+}
+### @article{grundman2000controlled,
+  title={A Controlled Trial of an Interactive, Web-based Virtual Reality Program for Teaching Physical Diagnosis Skills to Medical Students},
+  author={GRUNDMAN, JULIE A and WIGTON, ROBERT S and NICKOL, DEVIN},
+  journal={Academic Medicine},
+  volume={75},
+  number={10},
+  pages={S47--S49},
+  year={2000},
+  publisher={LWW}
+}
+### @article{horiuchi2009evaluation,
+  title={Evaluation of a web-based graduate continuing nursing education program in Japan: a randomized controlled trial},
+  author={Horiuchi, Shigeko and Yaju, Yukari and Koyo, Miki and Sakyo, Yumi and Nakayama, Kazuhiro},
+  journal={Nurse education today},
+  volume={29},
+  number={2},
+  pages={140--149},
+  year={2009},
+  publisher={Elsevier}
+}
+### @article{kopp2008fostering,
+  title={Fostering diagnostic knowledge through computer-supported, case-based worked examples: effects of erroneous examples and feedback},
+  author={Kopp, Veronika and Stark, Robin and Fischer, Martin R},
+  journal={Medical Education},
+  volume={42},
+  number={8},
+  pages={823--829},
+  year={2008},
+  publisher={Wiley Online Library}
+}
+### @article{leong2003integrating,
+  title={Integrating Web-based Computer Cases into a Required Clerkship: Development and Evaluation},
+  author={Leong, Shou Ling and Baldwin, Constance D and Adelman, Alan M},
+  journal={Academic Medicine},
+  volume={78},
+  number={3},
+  pages={295--301},
+  year={2003},
+  publisher={LWW}
+}
+### @article{lu2009effects,
+  title={Effects of a Web-based course on nursing skills and knowledge learning.},
+  author={Lu, Der-Fa and Lin, Zu-Chun and Li, Yun-Ju},
+  journal={The Journal of nursing education},
+  volume={48},
+  number={2},
+  pages={70--77},
+  year={2009}
+}
+### @article{mattheos2004effects,
+  title={The effects of an interactive software application on the self-assessment ability of dental students},
+  author={Mattheos, Nikos and Nattestad, Anders and Christersson, Cecilia and Jansson, Henrik and Attstr{\"o}m, Rolf},
+  journal={European Journal of Dental Education},
+  volume={8},
+  number={3},
+  pages={97--104},
+  year={2004},
+  publisher={Wiley Online Library}
+}
+### @article{makinen2006teaching,
+  title={Teaching basic life support to nurses},
+  author={M{\"a}kinen, M and Castren, M and Tolska, T and Nurmi, J and Niemi-Murola, L},
+  journal={European journal of anaesthesiology},
+  volume={23},
+  number={04},
+  pages={327--331},
+  year={2006},
+  publisher={Cambridge Univ Press}
+}
+### @article{nicholson2006can,
+  title={Can virtual reality improve anatomy education? A randomised controlled study of a computer-generated three-dimensional anatomical ear model},
+  author={Nicholson, Daren T and Chalk, Colin and Funnell, W Robert J and Daniel, Sam J},
+  journal={Medical education},
+  volume={40},
+  number={11},
+  pages={1081--1087},
+  year={2006},
+  publisher={Wiley Online Library}
+}
+### @article{papa1999effects,
+  title={The effects of immediate online feedback upon diagnostic performance},
+  author={Papa, FRANK J and Aldrich, DAVID and Schumacker, RE},
+  journal={Academic Medicine},
+  volume={74},
+  number={10},
+  pages={S16--8},
+  year={1999},
+  publisher={LWW}
+}
+### @article{smeekens2011successful,
+  title={Successful e-learning programme on the detection of child abuse in emergency departments: a randomised controlled trial},
+  author={Smeekens, AEFN and Broekhuijsen-van Henten, DM and Sittig, JS and Russel, IMB and Ten Cate, O Th J and Turner, NM and van de Putte, Elise M},
+  journal={Archives of disease in childhood},
+  pages={archdischild190801},
+  year={2011},
+  publisher={BMJ Publishing Group Ltd and Royal College of Paediatrics and Child Health}
+}
+### @article{spickard2002learning,
+  title={Learning about screening using an online or live lecture},
+  author={Spickard, Anderson and Alrajeh, Nabil and Cordray, David and Gigante, Joseph},
+  journal={Journal of general internal medicine},
+  volume={17},
+  number={7},
+  pages={540--545},
+  year={2002},
+  publisher={Wiley Online Library}
+}
+### @article{spickard2004randomised,
+  title={A randomised trial of an online lecture with and without audio},
+  author={Spickard, Anderson and Smithers, Jeffrey and Cordray, David and Gigante, Joseph and Wofford, James L},
+  journal={Medical Education},
+  volume={38},
+  number={7},
+  pages={787--790},
+  year={2004},
+  publisher={Wiley Online Library}
+}
+### @article{schittek2005computer,
+  title={Computer-mediated instructional video: a randomised controlled trial comparing a sequential and a segmented instructional video in surgical hand wash},
+  author={Schittek Janda, Martin and Tani Botticelli, Antonella and Mattheos, Nikos and Nebel, Daniel and Wagner, Anders and Nattestad, Anders and Attstr{\"o}m, Rolf},
+  journal={European Journal of Dental Education},
+  volume={9},
+  number={2},
+  pages={53--58},
+  year={2005},
+  publisher={Wiley Online Library}
+}
+### @article{tunuguntla2008computer,
+  title={Computer-based animations and static graphics as medical student aids in learning home safety assessment: A randomized controlled trial},
+  author={Tunuguntla, Renuka and Rodriguez, Osvaldo and Ruiz, Jorge G and Qadri, Syeda S and Mintzer, Michael J and Van Zuilen, Maria H and Roos, Bernard A},
+  journal={Medical teacher},
+  volume={30},
+  number={8},
+  pages={815--817},
+  year={2008},
+  publisher={Informa UK Ltd UK}
+}
 
