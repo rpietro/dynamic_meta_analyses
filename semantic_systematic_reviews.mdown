@@ -94,7 +94,17 @@ Our ontology engineering process is loosely based on [UPON](https://docs.google.
 3. Conducted a meta-analysis using by directly importing the RDF instances into the R language <!-- r citation --> using the [metafor package]() <!-- e o outro pacote pra avaliação de bias em variaveis continuas? samurai? O metafor consegue realizar a meta analise e gerar os graficos para variaveis continuas -->
 1. Presented the results to an educator and went back to the beginning of the cycle to address any issues
 
-In developing an ontology to represent the terms used in educational meta-analyses, we re-used terms from the [Clinical Trials Meta-Analysis Ontology]() (CTMA)<!--Lucas, create purl and describe here -->. Many terms used in CTMA are reused from [Dublin Core](). The CTMA is represented in Figure X. <!-- CTMA is the vocabulary that I created to represent the meta analyses data -->
+In developing an ontology to represent the terms used in educational meta-analyses, we re-used terms from the [Clinical Trials Meta-Analysis Ontology]() (CTMA)<!--Lucas, create purl and describe here -->. Many terms in educational meta-analyses are similar to terms already defined in [Dublin Core]() thus many terms are reused. The Table 1 presents the [Dublin Core]() terms reused and their role in CTMA.
+
+Table 1. Terms reused from Dublin Core.
+
+Dublin Core Term | Role in CTMA
+identifier | PUBMED ID of the study
+title | Title of the study
+creator | First author of the study
+
+
+The CTMA is represented in Figure X. <!-- CTMA is the vocabulary that I created to represent the meta analyses data -->
 
 <!--Lucas, please create figure of CTMA structure,
   Ricardo, is it necessary to explain every class and property?
