@@ -91,10 +91,10 @@ Our ontology engineering process is loosely based on [UPON](https://docs.google.
 1. Outlined the main sections from each articles included in the Cook meta-analysis, including both qualitative and quantitative components
 2. Outlined a first version of the ontology and instantiated it with data
 1. Released a qualitative table outlining the main characteristics of each study
-3. Conducted a meta-analysis using by directly importing the RDF instances into the R language <!-- r citation --> using the [metafor package]() <!-- e o outro pacote pra avaliação de bias em variaveis continuas? samurai? -->
+3. Conducted a meta-analysis using by directly importing the RDF instances into the R language <!-- r citation --> using the [metafor package]() <!-- e o outro pacote pra avaliação de bias em variaveis continuas? samurai? O metafor consegue realizar a meta analise e gerar os graficos para variaveis continuas -->
 1. Presented the results to an educator and went back to the beginning of the cycle to address any issues
 
-In developing an ontology to represent the terms used in educational meta-analyses, we re-used terms from the [Clinical Trials Meta-Analysis Ontology]() (CTMA)<!--Lucas, create purl and describe here -->. Many terms used in CTMA are reused from [Dublin Core](). These terms were then combined with the [RDF Data Cube]() to enrich the semantic representation of the resulting statistical data. The CTMA is represented in Figure X. 
+In developing an ontology to represent the terms used in educational meta-analyses, we re-used terms from the [Clinical Trials Meta-Analysis Ontology]() (CTMA)<!--Lucas, create purl and describe here -->. Many terms used in CTMA are reused from [Dublin Core](). The CTMA is represented in Figure X. <!-- CTMA is the vocabulary that I created to represent the meta analyses data -->
 
 <!--Lucas, please create figure of CTMA structure,
   Ricardo, is it necessary to explain every class and property?
@@ -102,9 +102,73 @@ In developing an ontology to represent the terms used in educational meta-analys
   acho que sim
 -->
 
-The following example is a study represented using CTMA and RDF Data Cube:
+The ontology were then combined with the [RDF Data Cube]() to enrich the semantic representation of the resulting statistical data. The following example is a study represented using CTMA and RDF Data Cube:
 
-<!--Lucas, create figure of one study representation-->
+> eg:10536581 a qb:Observation, ctma:Study;
+    qb:dataSet eg:datasetDynamicMetaAnalysis ;
+    dct:identifier 10536581;
+    dct:title "The effects of immediate online feedback upon diagnostic performance";
+    dct:subject "";
+    dct:date "1999-01-01"^^xsd:date;
+    dct:creator "Frank J. Papa";
+    dct:spatial [
+        rdfs:label "Fort Worth, United States";
+        geo:lat 32.749542;
+        geo:long -97.36903;
+        rdf:type dct:Location;
+    ];
+    ctma:objective "Test two hypotheses related to the validity and effectiveness of the CAI. Measure the additional time-to-task required to transform a testing session into a CAI session. Use any observed DDX improvements as the basis for making inferences regarding the possible transfer mechanisms (learning) underlying performance";
+    dct:audience "Medical Students";
+    dct:educationalLevel "Graduate";
+    ctma:followUpDays "";
+    ctma:arm 3;
+    ctma:sampleSizeIntervention 52;
+    ctma:timeLearningAvgIntervention 41;
+    ctma:timeLearningSdIntervention "NA";
+    ctma:sampleSizeControl 56;
+    ctma:timeLearningAvgControl 32;
+    ctma:timeLearningSdControl "NA"; 
+    ctma:armInterventionDescription "CAI Program with feedback";
+    ctma:armControlDescription "CAI Program. If the diagnosis was incorrect, the CAI program informed the Pre/Trt subjects of the correct diagnosis";
+    ctma:successIntervention "Validity of Case Vignettes as a Measure of DDX Ability - Post/Con group (mean=23.88, SD=4.23, n=33) signincantly outperformed the Pre/Con group (mean=21.66, SD=4.49, n=56), t=2.30, p=.02. Effectiveness of Feedback - Pre/Trt: mean=26.35, SD=4.58; Pte/Con: mean=21.66, SD=4.49; Post/Con: mean=23.88, SD=4.23" ;
+    ctma:successControl "";
+    ctma:firstOutcome [
+        ctma:outcomeDescription "Validity of Case Vignettes as a Measure of DDX Ability";
+        ctma:methodMeasureOutcome "";
+        rdf:type ctma:Outcome;
+    ];
+    ctma:secondOutcome [
+        ctma:outcomeDescription "Effectiveness of Feedback";
+        ctma:methodMeasureOutcome "";
+        rdf:type ctma:Outcome;
+    ];
+    ctma:thirdOutcome [
+        ctma:outcomeDescription "Efficiency of Feedback";
+        ctma:methodMeasureOutcome "CAI program recorded the diagnoses and the amount of time (in seconds) taken per subject on each vignette";
+        rdf:type ctma:Outcome;
+    ];
+    ctma:attritionRatioIntervention 0;
+    ctma:attritionRatioControl 0;
+    ctma:gradeSequenceGeneration [
+    	rdf:value 0;
+    	rdf:type ctma:Grade;
+    ];
+    ctma:gradeAllocationConcealment [
+    	rdf:value 0;
+    	rdf:type ctma:Grade;
+    ];
+    ctma:gradeBlinding [
+    	rdf:value 0;
+    	rdf:type ctma:Grade;
+    ];
+    ctma:gradeLosses [
+    	rdf:value 0;
+    	rdf:type ctma:Grade;
+    ];
+    ctma:gradeIntentionTreat [
+    	rdf:value 0;
+    	rdf:type ctma:Grade;
+    ] .
 
 Finally, CTMA is licensed under [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) and it is available under our [SPARQL Endpoint](http://ppv1.hc.fm.usp.br/dynamic-meta-analysis/sparql/).
 
@@ -112,6 +176,15 @@ Finally, CTMA is licensed under [Apache License, Version 2.0](http://www.apache.
 
 ### Linking data to the systematic review or data analysis
 
+[The Citation Typing Ontology (CiTO)](http://speroni.web.cs.unibo.it/cgi-bin/lode/req.py?req=http:/purl.org/spar/cito) is a ontology for the characterization of citations. It allows the semantic representation of citations of articles in general.
+
+We have also combined CTMA with CiTO. This was possible because all studies selected for the demonstration of our framework were already published. The following example represents the additions needed for CiTO.
+
+<!-- Lucas, explicit additions -->
+
+Finally, in order to demonstrate the practical applicability of CiTO, we generate the references for this article using it. 
+
+<!--
 [CiTO, the Citation Typing Ontology](http://speroni.web.cs.unibo.it/cgi-bin/lode/req.py?req=http:/purl.org/spar/cito)
 
 http://www.carlboettiger.info/
@@ -119,6 +192,7 @@ http://www.carlboettiger.info/
 https://github.com/cboettig/knitcitations
 
 http://citationstyles.org/
+-->
 
 <!-- Jacson, cito is included in knitcitations and only requires the DOI - do you know whether DOI is included in the pubmed lod? a connection with cito could lead in another paper toward a facilitated search for additional rcts if we connect it to the pubmed API to search for related articles. could also do some hacking of google scholar in order to get citing and cited articles. see http://goo.gl/wvQEdG for an example. all of this is not for now, this will be part of the discussion section as future development -->
 
