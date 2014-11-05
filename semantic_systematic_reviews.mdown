@@ -99,6 +99,7 @@ In developing an ontology to represent the terms used in educational meta-analys
 Table 1. Terms reused from Dublin Core.
 
 Dublin Core Term | Role in CTMA
+---------------- | ------------
 identifier | PUBMED ID of the study
 title | Title of the study
 creator | First author of the study
