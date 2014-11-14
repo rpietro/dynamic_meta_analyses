@@ -59,7 +59,7 @@ map distribution trial geolocation -->
 
 ### Demonstration systematic review and meta-analysis articles
 
-As a demonstration of the dynamic, semantic meta-analysis framework we used the systematic review by @du2013web as well as by @cook2010time. The systematic review by @du2013web, 2013 included 9 studies: @bloomfield2010effect,@chiu2009effectiveness, @fernandez2011effects, @gerdprasert2010development, @horiuchi2009evaluation, @lu2009effects, @makinen2006teaching, @smeekens2011successful, [McMullan et al. 2011](https://docs.google.com/file/d/0B-L3GiehWhDMNmp6YmdCdnk0U28/edit).
+As a demonstration of the dynamic, semantic meta-analysis framework we used the systematic review by @du2013web as well as by @cook2010time. The systematic review by @du2013web, 2013 included 9 studies: @bloomfield2010effect,@chiu2009effectiveness, @fernandez2011effects, @gerdprasert2010development, @horiuchi2009evaluation, @lu2009effects, @makinen2006teaching, @smeekens2011successful,@mcmullan2011effect.
 
 
 The systematic review by @cook2010time, 2010 included 20 studies: @papa1999effects, @bell2000self, @grundman2000controlled, @spickard2002learning, @dennis2003problem, @leong2003integrating, @mattheos2004effects, @spickard2004randomised, @cook2005web,@blackmore2006role, @schittek2005computer,, @cook2006impact, @friedl2006multimedia, @friedl2006comparative, @nicholson2006can, @cook2008adapting, @cook2008introducing, @kopp2008fostering, @tunuguntla2008computer, @cook2010time.  
