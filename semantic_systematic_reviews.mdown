@@ -55,6 +55,24 @@ write more detailed use case
 
 map distribution trial geolocation -->
 
+### Eligibility criteria
+
+We considered studies with the following criteria: online education studies in the health area that were included  by @du2013web as well as by @cook2010time.
+
+### Study selection
+
+Titles and abstract of the retrieved articles were independently evaluated by 2 reviewers (LLO and USS) to confirm inclusion. Two reviewers (LLO and USS) independently evaluated full-text articles and determined study eligibility. Disagreements were solved by consensus and if disagreement persisted, they sought a third reviewer’s opinion (R.P).
+
+### Risk of bias across studies
+
+Articles meeting the previously described criteria were ranked according to the GRADE scale for randomized controlled trials (Atkins et al., 2004). The GRADE scale is based on the foundations laid by CONSORT (Balshem et al., 2011; Ioannidis et al., 2004). <!-- Taís, precisa incluir as referências deste parágrafo -->
+
+### Data Extraction
+
+Two reviewers (LLO and USS) independently conducted data extraction. 
+Characteristics of the studies collected included year of publication, authors, geographic region of first author, objective, profession, time learning, learning outcome, method of measuring the learning, success and attrition rates.
+
+### Data Analysis
 
 
 ### Demonstration systematic review and meta-analysis articles
